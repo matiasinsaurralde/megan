@@ -1,0 +1,344 @@
+                                                                     
+     This program uses the EPA-AREAL/MCNC-EnvPgms/BAMS Models-3      
+     I/O Applications Programming Interface, [I/O API] which is      
+     built on top of the netCDF I/O library (Copyright 1993, 1996    
+     University Corporation for Atmospheric Research/Unidata         
+     Program) and the PVM parallel-programming library (from         
+     Oak Ridge National Laboratory).  Copyright (C) 1992-2002 MCNC   
+     and Carlie J. Coats, Jr., and 2003-2006 Baron Advanced          
+     Meteorological Systems, LLC and released under the GNU LGPL     
+     License, version 2.1.  See URL                                  
+                                                                     
+         http://www.baronams.com/products/ioapi/LGPL.txt             
+                                                                     
+     for conditions of use.                                          
+                                                                     
+     Library release tag: $JDate: 2010068 $                          
+                                                                     
+     $Id: @(#) ioapi library version 3.1 $
+     Version with PARMS3.EXT/PARAMETER::MXVARS3= 2048
+     netCDF version "3.6.3" of Oct  7 2010 10:15:03 $
+      
+      
+     Missing environment variable EXECUTION_ID
+     Value for GDNAM3D:  'USA36km'
+
+     File "GRIDDESC" opened for input on unit:  99
+     GRIDDESC
+
+     Value for MCIPMET:  Y returning TRUE
+     Value for MM5MET:  N returning FALSE
+     Value for SATPAR:  N returning FALSE
+     Value for MCIPRAD:  Y returning TRUE
+     Value for MM5RAD:  N returning FALSE
+     Value for STDATE:  820100
+     Value for ENDATE:  820123
+     Value for EPISODE_SDATE:  2008201
+     Value for GDNAM3D:  'USA36km'
+     Value for MCIPRAD:  Y returning TRUE
+     Value for SATPAR:  N returning FALSE
+     Value for EPISODE_SDATE:  2008201
+     Value for IOAPI_CHECK_HEADERS not defined;returning default:   FALSE
+      
+     "METCRO2Dfile1" opened as OLD:READ-ONLY   
+     File name "/data3/home/xjiang/MCIP/mcip_out/METCRO2D.USA36km"
+     File type GRDDED3 
+     Execution ID "mcip"
+     Grid name "METCRO_123456789"
+     Dimensions: 112 rows, 148 cols, 1 lays, 64 vbles
+     NetCDF ID:         3  opened as READONLY            
+     Starting date and time  2008201:000000 (0:00:00   July 19, 2008)
+     Timestep                          010000 (1:00:00 hh:mm:ss)
+     Maximum current record number        49
+      
+     "METCRO3Dfile" opened as OLD:READ-ONLY   
+     File name "/data3/home/xjiang/MCIP/mcip_out/METCRO3D.USA36km"
+     File type GRDDED3 
+     Execution ID "mcip"
+     Grid name "METCRO_123456789"
+     Dimensions: 112 rows, 148 cols, 27 lays, 12 vbles
+     NetCDF ID:         4  opened as READONLY            
+     Starting date and time  2008201:000000 (0:00:00   July 19, 2008)
+     Timestep                          010000 (1:00:00 hh:mm:ss)
+     Maximum current record number        49
+      
+     "METDOT3Dfile" opened as OLD:READ-ONLY   
+     File name "/data3/home/xjiang/MCIP/mcip_out/METDOT3D.USA36km"
+     File type GRDDED3 
+     Execution ID "mcip"
+     Grid name "METDOT_123456789"
+     Dimensions: 113 rows, 149 cols, 27 lays, 6 vbles
+     NetCDF ID:         5  opened as READONLY            
+     Starting date and time  2008201:000000 (0:00:00   July 19, 2008)
+     Timestep                          010000 (1:00:00 hh:mm:ss)
+     Maximum current record number        49
+     
+     Value for IOAPI_CHECK_HEADERS not defined;returning default:   FALSE
+     Value for IOAPI_OFFSET_64 not defined;returning default:   FALSE
+      
+     "OUTFILE" opened as UNKNOWN(R-W)    
+     File name "/data3/home/xjiang/MEGAN/MEGANv2.10/Input/MGNMET/MET.MEGAN.USA36km.2008201.ncf"
+     File type GRDDED3 
+     Execution ID "????????????????"
+     Grid name "METCRO_123456789"
+     Dimensions: 112 rows, 148 cols, 1 lays, 10 vbles
+     NetCDF ID:         6  opened as READWRITE           
+     Starting date and time  2008201:000000 (0:00:00   July 19, 2008)
+     Timestep                          010000 (1:00:00 hh:mm:ss)
+     Maximum current record number         0
+     Value for IOAPI_LOG_WRITE not defined;returning default:   TRUE
+     SOIM1 written to OUTFILE for   2008201:000000
+     SOIT1 written to OUTFILE for   2008201:000000
+     SLTYP written to OUTFILE for   2008201:000000
+     TEMP2 written to OUTFILE for   2008201:000000
+     PRES written to OUTFILE for   2008201:000000
+     QV written to OUTFILE for   2008201:000000
+     WINDSPD written to OUTFILE for   2008201:000000
+     RAIN_ACC24 written to OUTFILE for   2008201:000000
+     PREC_ADJ written to OUTFILE for   2008201:000000
+     PAR written to OUTFILE for   2008201:000000
+     SOIM1 written to OUTFILE for   2008201:010000
+     SOIT1 written to OUTFILE for   2008201:010000
+     SLTYP written to OUTFILE for   2008201:010000
+     TEMP2 written to OUTFILE for   2008201:010000
+     PRES written to OUTFILE for   2008201:010000
+     QV written to OUTFILE for   2008201:010000
+     WINDSPD written to OUTFILE for   2008201:010000
+     RAIN_ACC24 written to OUTFILE for   2008201:010000
+     PREC_ADJ written to OUTFILE for   2008201:010000
+     PAR written to OUTFILE for   2008201:010000
+     SOIM1 written to OUTFILE for   2008201:020000
+     SOIT1 written to OUTFILE for   2008201:020000
+     SLTYP written to OUTFILE for   2008201:020000
+     TEMP2 written to OUTFILE for   2008201:020000
+     PRES written to OUTFILE for   2008201:020000
+     QV written to OUTFILE for   2008201:020000
+     WINDSPD written to OUTFILE for   2008201:020000
+     RAIN_ACC24 written to OUTFILE for   2008201:020000
+     PREC_ADJ written to OUTFILE for   2008201:020000
+     PAR written to OUTFILE for   2008201:020000
+     SOIM1 written to OUTFILE for   2008201:030000
+     SOIT1 written to OUTFILE for   2008201:030000
+     SLTYP written to OUTFILE for   2008201:030000
+     TEMP2 written to OUTFILE for   2008201:030000
+     PRES written to OUTFILE for   2008201:030000
+     QV written to OUTFILE for   2008201:030000
+     WINDSPD written to OUTFILE for   2008201:030000
+     RAIN_ACC24 written to OUTFILE for   2008201:030000
+     PREC_ADJ written to OUTFILE for   2008201:030000
+     PAR written to OUTFILE for   2008201:030000
+     SOIM1 written to OUTFILE for   2008201:040000
+     SOIT1 written to OUTFILE for   2008201:040000
+     SLTYP written to OUTFILE for   2008201:040000
+     TEMP2 written to OUTFILE for   2008201:040000
+     PRES written to OUTFILE for   2008201:040000
+     QV written to OUTFILE for   2008201:040000
+     WINDSPD written to OUTFILE for   2008201:040000
+     RAIN_ACC24 written to OUTFILE for   2008201:040000
+     PREC_ADJ written to OUTFILE for   2008201:040000
+     PAR written to OUTFILE for   2008201:040000
+     SOIM1 written to OUTFILE for   2008201:050000
+     SOIT1 written to OUTFILE for   2008201:050000
+     SLTYP written to OUTFILE for   2008201:050000
+     TEMP2 written to OUTFILE for   2008201:050000
+     PRES written to OUTFILE for   2008201:050000
+     QV written to OUTFILE for   2008201:050000
+     WINDSPD written to OUTFILE for   2008201:050000
+     RAIN_ACC24 written to OUTFILE for   2008201:050000
+     PREC_ADJ written to OUTFILE for   2008201:050000
+     PAR written to OUTFILE for   2008201:050000
+     SOIM1 written to OUTFILE for   2008201:060000
+     SOIT1 written to OUTFILE for   2008201:060000
+     SLTYP written to OUTFILE for   2008201:060000
+     TEMP2 written to OUTFILE for   2008201:060000
+     PRES written to OUTFILE for   2008201:060000
+     QV written to OUTFILE for   2008201:060000
+     WINDSPD written to OUTFILE for   2008201:060000
+     RAIN_ACC24 written to OUTFILE for   2008201:060000
+     PREC_ADJ written to OUTFILE for   2008201:060000
+     PAR written to OUTFILE for   2008201:060000
+     SOIM1 written to OUTFILE for   2008201:070000
+     SOIT1 written to OUTFILE for   2008201:070000
+     SLTYP written to OUTFILE for   2008201:070000
+     TEMP2 written to OUTFILE for   2008201:070000
+     PRES written to OUTFILE for   2008201:070000
+     QV written to OUTFILE for   2008201:070000
+     WINDSPD written to OUTFILE for   2008201:070000
+     RAIN_ACC24 written to OUTFILE for   2008201:070000
+     PREC_ADJ written to OUTFILE for   2008201:070000
+     PAR written to OUTFILE for   2008201:070000
+     SOIM1 written to OUTFILE for   2008201:080000
+     SOIT1 written to OUTFILE for   2008201:080000
+     SLTYP written to OUTFILE for   2008201:080000
+     TEMP2 written to OUTFILE for   2008201:080000
+     PRES written to OUTFILE for   2008201:080000
+     QV written to OUTFILE for   2008201:080000
+     WINDSPD written to OUTFILE for   2008201:080000
+     RAIN_ACC24 written to OUTFILE for   2008201:080000
+     PREC_ADJ written to OUTFILE for   2008201:080000
+     PAR written to OUTFILE for   2008201:080000
+     SOIM1 written to OUTFILE for   2008201:090000
+     SOIT1 written to OUTFILE for   2008201:090000
+     SLTYP written to OUTFILE for   2008201:090000
+     TEMP2 written to OUTFILE for   2008201:090000
+     PRES written to OUTFILE for   2008201:090000
+     QV written to OUTFILE for   2008201:090000
+     WINDSPD written to OUTFILE for   2008201:090000
+     RAIN_ACC24 written to OUTFILE for   2008201:090000
+     PREC_ADJ written to OUTFILE for   2008201:090000
+     PAR written to OUTFILE for   2008201:090000
+     SOIM1 written to OUTFILE for   2008201:100000
+     SOIT1 written to OUTFILE for   2008201:100000
+     SLTYP written to OUTFILE for   2008201:100000
+     TEMP2 written to OUTFILE for   2008201:100000
+     PRES written to OUTFILE for   2008201:100000
+     QV written to OUTFILE for   2008201:100000
+     WINDSPD written to OUTFILE for   2008201:100000
+     RAIN_ACC24 written to OUTFILE for   2008201:100000
+     PREC_ADJ written to OUTFILE for   2008201:100000
+     PAR written to OUTFILE for   2008201:100000
+     SOIM1 written to OUTFILE for   2008201:110000
+     SOIT1 written to OUTFILE for   2008201:110000
+     SLTYP written to OUTFILE for   2008201:110000
+     TEMP2 written to OUTFILE for   2008201:110000
+     PRES written to OUTFILE for   2008201:110000
+     QV written to OUTFILE for   2008201:110000
+     WINDSPD written to OUTFILE for   2008201:110000
+     RAIN_ACC24 written to OUTFILE for   2008201:110000
+     PREC_ADJ written to OUTFILE for   2008201:110000
+     PAR written to OUTFILE for   2008201:110000
+     SOIM1 written to OUTFILE for   2008201:120000
+     SOIT1 written to OUTFILE for   2008201:120000
+     SLTYP written to OUTFILE for   2008201:120000
+     TEMP2 written to OUTFILE for   2008201:120000
+     PRES written to OUTFILE for   2008201:120000
+     QV written to OUTFILE for   2008201:120000
+     WINDSPD written to OUTFILE for   2008201:120000
+     RAIN_ACC24 written to OUTFILE for   2008201:120000
+     PREC_ADJ written to OUTFILE for   2008201:120000
+     PAR written to OUTFILE for   2008201:120000
+     SOIM1 written to OUTFILE for   2008201:130000
+     SOIT1 written to OUTFILE for   2008201:130000
+     SLTYP written to OUTFILE for   2008201:130000
+     TEMP2 written to OUTFILE for   2008201:130000
+     PRES written to OUTFILE for   2008201:130000
+     QV written to OUTFILE for   2008201:130000
+     WINDSPD written to OUTFILE for   2008201:130000
+     RAIN_ACC24 written to OUTFILE for   2008201:130000
+     PREC_ADJ written to OUTFILE for   2008201:130000
+     PAR written to OUTFILE for   2008201:130000
+     SOIM1 written to OUTFILE for   2008201:140000
+     SOIT1 written to OUTFILE for   2008201:140000
+     SLTYP written to OUTFILE for   2008201:140000
+     TEMP2 written to OUTFILE for   2008201:140000
+     PRES written to OUTFILE for   2008201:140000
+     QV written to OUTFILE for   2008201:140000
+     WINDSPD written to OUTFILE for   2008201:140000
+     RAIN_ACC24 written to OUTFILE for   2008201:140000
+     PREC_ADJ written to OUTFILE for   2008201:140000
+     PAR written to OUTFILE for   2008201:140000
+     SOIM1 written to OUTFILE for   2008201:150000
+     SOIT1 written to OUTFILE for   2008201:150000
+     SLTYP written to OUTFILE for   2008201:150000
+     TEMP2 written to OUTFILE for   2008201:150000
+     PRES written to OUTFILE for   2008201:150000
+     QV written to OUTFILE for   2008201:150000
+     WINDSPD written to OUTFILE for   2008201:150000
+     RAIN_ACC24 written to OUTFILE for   2008201:150000
+     PREC_ADJ written to OUTFILE for   2008201:150000
+     PAR written to OUTFILE for   2008201:150000
+     SOIM1 written to OUTFILE for   2008201:160000
+     SOIT1 written to OUTFILE for   2008201:160000
+     SLTYP written to OUTFILE for   2008201:160000
+     TEMP2 written to OUTFILE for   2008201:160000
+     PRES written to OUTFILE for   2008201:160000
+     QV written to OUTFILE for   2008201:160000
+     WINDSPD written to OUTFILE for   2008201:160000
+     RAIN_ACC24 written to OUTFILE for   2008201:160000
+     PREC_ADJ written to OUTFILE for   2008201:160000
+     PAR written to OUTFILE for   2008201:160000
+     SOIM1 written to OUTFILE for   2008201:170000
+     SOIT1 written to OUTFILE for   2008201:170000
+     SLTYP written to OUTFILE for   2008201:170000
+     TEMP2 written to OUTFILE for   2008201:170000
+     PRES written to OUTFILE for   2008201:170000
+     QV written to OUTFILE for   2008201:170000
+     WINDSPD written to OUTFILE for   2008201:170000
+     RAIN_ACC24 written to OUTFILE for   2008201:170000
+     PREC_ADJ written to OUTFILE for   2008201:170000
+     PAR written to OUTFILE for   2008201:170000
+     SOIM1 written to OUTFILE for   2008201:180000
+     SOIT1 written to OUTFILE for   2008201:180000
+     SLTYP written to OUTFILE for   2008201:180000
+     TEMP2 written to OUTFILE for   2008201:180000
+     PRES written to OUTFILE for   2008201:180000
+     QV written to OUTFILE for   2008201:180000
+     WINDSPD written to OUTFILE for   2008201:180000
+     RAIN_ACC24 written to OUTFILE for   2008201:180000
+     PREC_ADJ written to OUTFILE for   2008201:180000
+     PAR written to OUTFILE for   2008201:180000
+     SOIM1 written to OUTFILE for   2008201:190000
+     SOIT1 written to OUTFILE for   2008201:190000
+     SLTYP written to OUTFILE for   2008201:190000
+     TEMP2 written to OUTFILE for   2008201:190000
+     PRES written to OUTFILE for   2008201:190000
+     QV written to OUTFILE for   2008201:190000
+     WINDSPD written to OUTFILE for   2008201:190000
+     RAIN_ACC24 written to OUTFILE for   2008201:190000
+     PREC_ADJ written to OUTFILE for   2008201:190000
+     PAR written to OUTFILE for   2008201:190000
+     SOIM1 written to OUTFILE for   2008201:200000
+     SOIT1 written to OUTFILE for   2008201:200000
+     SLTYP written to OUTFILE for   2008201:200000
+     TEMP2 written to OUTFILE for   2008201:200000
+     PRES written to OUTFILE for   2008201:200000
+     QV written to OUTFILE for   2008201:200000
+     WINDSPD written to OUTFILE for   2008201:200000
+     RAIN_ACC24 written to OUTFILE for   2008201:200000
+     PREC_ADJ written to OUTFILE for   2008201:200000
+     PAR written to OUTFILE for   2008201:200000
+     SOIM1 written to OUTFILE for   2008201:210000
+     SOIT1 written to OUTFILE for   2008201:210000
+     SLTYP written to OUTFILE for   2008201:210000
+     TEMP2 written to OUTFILE for   2008201:210000
+     PRES written to OUTFILE for   2008201:210000
+     QV written to OUTFILE for   2008201:210000
+     WINDSPD written to OUTFILE for   2008201:210000
+     RAIN_ACC24 written to OUTFILE for   2008201:210000
+     PREC_ADJ written to OUTFILE for   2008201:210000
+     PAR written to OUTFILE for   2008201:210000
+     SOIM1 written to OUTFILE for   2008201:220000
+     SOIT1 written to OUTFILE for   2008201:220000
+     SLTYP written to OUTFILE for   2008201:220000
+     TEMP2 written to OUTFILE for   2008201:220000
+     PRES written to OUTFILE for   2008201:220000
+     QV written to OUTFILE for   2008201:220000
+     WINDSPD written to OUTFILE for   2008201:220000
+     RAIN_ACC24 written to OUTFILE for   2008201:220000
+     PREC_ADJ written to OUTFILE for   2008201:220000
+     PAR written to OUTFILE for   2008201:220000
+     SOIM1 written to OUTFILE for   2008201:230000
+     SOIT1 written to OUTFILE for   2008201:230000
+     SLTYP written to OUTFILE for   2008201:230000
+     TEMP2 written to OUTFILE for   2008201:230000
+     PRES written to OUTFILE for   2008201:230000
+     QV written to OUTFILE for   2008201:230000
+     WINDSPD written to OUTFILE for   2008201:230000
+     RAIN_ACC24 written to OUTFILE for   2008201:230000
+     PREC_ADJ written to OUTFILE for   2008201:230000
+     PAR written to OUTFILE for   2008201:230000
+      
+     "PFILE" opened as NEW(CREAT/TRUNC)
+     File name "/data3/home/xjiang/MEGAN/MEGANv2.10/Input/MGNMET/PFILE"
+     File type GRDDED3 
+     Execution ID "????????????????"
+     Grid name "METCRO_123456789"
+     Dimensions: 112 rows, 148 cols, 1 lays, 3 vbles
+     NetCDF ID:         7  opened as READWRITE           
+     Starting date and time  2008201:230000 (23:00:00  July 19, 2008)
+     Timestep                          010000 (1:00:00 hh:mm:ss)
+     Maximum current record number         0
+     PTYPE written to PFILE for   2008201:230000
+     PULSEDATE written to PFILE for   2008201:230000
+     PULSETIME written to PFILE for   2008201:230000
+ Normal completion by met2mgn

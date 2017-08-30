@@ -1,0 +1,2077 @@
+                                                                     
+     This program uses the EPA-AREAL/MCNC-EnvPgms/BAMS Models-3      
+     I/O Applications Programming Interface, [I/O API] which is      
+     built on top of the netCDF I/O library (Copyright 1993, 1996    
+     University Corporation for Atmospheric Research/Unidata         
+     Program) and the PVM parallel-programming library (from         
+     Oak Ridge National Laboratory).  Copyright (C) 1992-2002 MCNC   
+     and Carlie J. Coats, Jr., and 2003-2006 Baron Advanced          
+     Meteorological Systems, LLC and released under the GNU LGPL     
+     License, version 2.1.  See URL                                  
+                                                                     
+         http://www.baronams.com/products/ioapi/LGPL.txt             
+                                                                     
+     for conditions of use.                                          
+                                                                     
+     Library release tag: $JDate: 2010068 $                          
+                                                                     
+     $Id: @(#) ioapi library version 3.1 $
+     Version with PARMS3.EXT/PARAMETER::MXVARS3= 2048
+     netCDF version "3.6.3" of Oct  7 2010 10:15:03 $
+      
+      
+     Missing environment variable EXECUTION_ID
+     Value for ONLN_DT:  Y returning TRUE
+     Value for ONLN_DS:  Y returning TRUE
+     Value for GDNAM3D:  'USA36km'
+
+     File "GRIDDESC" opened for input on unit:  99
+     /data3/home/xjiang/MEGAN/MEGANv2.10/work/GRIDDESC
+
+        Checking up files       0        0        0
+     Value for IOAPI_CHECK_HEADERS not defined;returning default:   FALSE
+      
+     "PFTS16" opened as OLD:READ-ONLY   
+     File name "/data3/home/xjiang/MEGAN/MEGANv2.10/Input/MAP/PFTS16.USA36.ncf"
+     File type GRDDED3 
+     Execution ID "????????????????"
+     Grid name "USA36km"
+     Dimensions: 112 rows, 148 cols, 1 lays, 1 vbles
+     NetCDF ID:         3  opened as READONLY            
+     Starting date and time     -635:000000 (0:00:00   Dec. 31, -001)
+     Timestep                          010000 (1:00:00 hh:mm:ss)
+     Maximum current record number        16
+      
+     "LAIS46" opened as OLD:READ-ONLY   
+     File name "/data3/home/xjiang/MEGAN/MEGANv2.10/Input/MAP/LAIS46.USA36.ncf"
+     File type GRDDED3 
+     Execution ID "????????????????"
+     Grid name "USA36km"
+     Dimensions: 112 rows, 148 cols, 1 lays, 1 vbles
+     NetCDF ID:         4  opened as READONLY            
+     Starting date and time     -635:000000 (0:00:00   Dec. 31, -001)
+     Timestep                          010000 (1:00:00 hh:mm:ss)
+     Maximum current record number        46
+      
+     "EFMAPS" opened as OLD:READ-ONLY   
+     File name "/data3/home/xjiang/MEGAN/MEGANv2.10/Input/MAP/EFMAPS.USA36.ncf"
+     File type GRDDED3 
+     Execution ID "????????????????"
+     Grid name "USA36km"
+     Dimensions: 112 rows, 148 cols, 1 lays, 24 vbles
+     NetCDF ID:         5  opened as READONLY            
+     Time-independent data.
+      
+     "MGNMET" opened as OLD:READ-ONLY   
+     File name "/data3/home/xjiang/MEGAN/MEGANv2.10/Input/MGNMET/MET.MEGAN.USA36km.2008201.ncf"
+     File type GRDDED3 
+     Execution ID "????????????????"
+     Grid name "METCRO_123456789"
+     Dimensions: 112 rows, 148 cols, 1 lays, 10 vbles
+     NetCDF ID:         6  opened as READONLY            
+     Starting date and time  2008201:000000 (0:00:00   July 19, 2008)
+     Timestep                          010000 (1:00:00 hh:mm:ss)
+     Maximum current record number        24
+     Value for SDATE:  2008201
+     Value for STIME:  0
+     Value for RLENG:  240000
+       Checking up MGNMET       0        0        0
+     
+     Value for IOAPI_CHECK_HEADERS not defined;returning default:   FALSE
+     Value for IOAPI_OFFSET_64 not defined;returning default:   FALSE
+      
+     "MGNERS" opened as NEW(CREAT/TRUNC)
+     File name "/data3/home/xjiang/MEGAN/MEGANv2.10/Output/INT/ER.USA36km.2008201.ncf"
+     File type GRDDED3 
+     Execution ID "????????????????"
+     Grid name "METCRO_123456789"
+     Dimensions: 112 rows, 148 cols, 1 lays, 27 vbles
+     NetCDF ID:         7  opened as READWRITE           
+     Starting date and time  2008201:000000 (0:00:00   July 19, 2008)
+     Timestep                          010000 (1:00:00 hh:mm:ss)
+     Maximum current record number         0
+             Processing:        1  2008201        0
+      Found LAI current period for YYYYJJJ :  2008201        1    10000
+     Found LAI previous period for YYYYJJJ :  2008201        1        0
+        Entering CANOPY:        1  2008201        0
+          Exited CANOPY:        1  2008201        0
+        Entering CANOPY:        2  2008201        0
+          Exited CANOPY:        2  2008201        0
+        Entering CANOPY:        3  2008201        0
+          Exited CANOPY:        3  2008201        0
+        Entering CANOPY:        4  2008201        0
+          Exited CANOPY:        4  2008201        0
+        Entering CANOPY:        5  2008201        0
+          Exited CANOPY:        5  2008201        0
+        Entering CANOPY:        6  2008201        0
+          Exited CANOPY:        6  2008201        0
+        Entering CANOPY:        7  2008201        0
+          Exited CANOPY:        7  2008201        0
+        Entering CANOPY:        8  2008201        0
+          Exited CANOPY:        8  2008201        0
+        Entering CANOPY:        9  2008201        0
+          Exited CANOPY:        9  2008201        0
+        Entering CANOPY:       10  2008201        0
+          Exited CANOPY:       10  2008201        0
+        Entering CANOPY:       11  2008201        0
+          Exited CANOPY:       11  2008201        0
+        Entering CANOPY:       12  2008201        0
+          Exited CANOPY:       12  2008201        0
+        Entering CANOPY:       13  2008201        0
+          Exited CANOPY:       13  2008201        0
+        Entering CANOPY:       14  2008201        0
+          Exited CANOPY:       14  2008201        0
+        Entering CANOPY:       15  2008201        0
+          Exited CANOPY:       15  2008201        0
+        Entering CANOPY:       16  2008201        0
+          Exited CANOPY:       16  2008201        0
+        Entering CANOPY:       17  2008201        0
+          Exited CANOPY:       17  2008201        0
+        Entering CANOPY:       18  2008201        0
+          Exited CANOPY:       18  2008201        0
+        Entering CANOPY:       19  2008201        0
+          Exited CANOPY:       19  2008201        0
+        Entering CANOPY:       20  2008201        0
+          Exited CANOPY:       20  2008201        0
+     Estimating soil NOx        1  2008201        0
+     Using SOIL parameters in NOx adjustment
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.03 out of range at (C,R)= 27, 36 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    316.54 out of range at (C,R)= 28, 36 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.21 out of range at (C,R)= 29, 36 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.43 out of range at (C,R)= 27, 37 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    317.34 out of range at (C,R)= 28, 37 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    316.54 out of range at (C,R)= 29, 37 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.21 out of range at (C,R)= 30, 37 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.08 out of range at (C,R)= 32, 37 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.17 out of range at (C,R)= 33, 37 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.24 out of range at (C,R)= 27, 38 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    316.61 out of range at (C,R)= 28, 38 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    316.25 out of range at (C,R)= 29, 38 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.41 out of range at (C,R)= 30, 38 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.26 out of range at (C,R)= 31, 38 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.68 out of range at (C,R)= 32, 38 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    316.00 out of range at (C,R)= 33, 38 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.83 out of range at (C,R)= 34, 38 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.32 out of range at (C,R)= 35, 38 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.26 out of range at (C,R)= 27, 39 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.55 out of range at (C,R)= 28, 39 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.47 out of range at (C,R)= 29, 39 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.19 out of range at (C,R)= 30, 39 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.26 out of range at (C,R)= 31, 39 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.65 out of range at (C,R)= 32, 39 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.79 out of range at (C,R)= 33, 39 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.44 out of range at (C,R)= 34, 39 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.44 out of range at (C,R)= 27, 40 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.07 out of range at (C,R)= 28, 40 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.18 out of range at (C,R)= 29, 40 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.28 out of range at (C,R)= 30, 40 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.33 out of range at (C,R)= 31, 40 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.16 out of range at (C,R)= 32, 40 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.18 out of range at (C,R)= 29, 41 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.43 out of range at (C,R)= 30, 41 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.33 out of range at (C,R)= 31, 41 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.02 out of range at (C,R)= 29, 42 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.33 out of range at (C,R)= 30, 42 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.07 out of range at (C,R)= 31, 42 resetting to 315K
+     M3WARN:  DTBUF 0:00:00   July 19, 2008
+     Finished soil NOx ad       1  2008201        0
+     Writing emission at        1  2008201        0
+     Value for IOAPI_LOG_WRITE not defined;returning default:   TRUE
+     ISOP written to MGNERS for   2008201:000000
+     MYRC written to MGNERS for   2008201:000000
+     SABI written to MGNERS for   2008201:000000
+     LIMO written to MGNERS for   2008201:000000
+     A_3CAR written to MGNERS for   2008201:000000
+     OCIM written to MGNERS for   2008201:000000
+     BPIN written to MGNERS for   2008201:000000
+     APIN written to MGNERS for   2008201:000000
+     OMTP written to MGNERS for   2008201:000000
+     FARN written to MGNERS for   2008201:000000
+     BCAR written to MGNERS for   2008201:000000
+     OSQT written to MGNERS for   2008201:000000
+     MBO written to MGNERS for   2008201:000000
+     MEOH written to MGNERS for   2008201:000000
+     ACTO written to MGNERS for   2008201:000000
+     CO written to MGNERS for   2008201:000000
+     NO written to MGNERS for   2008201:000000
+     BIDER written to MGNERS for   2008201:000000
+     STRESS written to MGNERS for   2008201:000000
+     OTHER written to MGNERS for   2008201:000000
+     D_TEMP written to MGNERS for   2008201:000000
+     D_PPFD written to MGNERS for   2008201:000000
+     LAT written to MGNERS for   2008201:000000
+     LONG written to MGNERS for   2008201:000000
+     CFNO written to MGNERS for   2008201:000000
+     CFNOG written to MGNERS for   2008201:000000
+     SLTYP written to MGNERS for   2008201:000000
+             Processing:        2  2008201    10000
+      Found LAI current period for YYYYJJJ :  2008201        1    10000
+     Found LAI previous period for YYYYJJJ :  2008201        1        0
+        Entering CANOPY:        1  2008201    10000
+          Exited CANOPY:        1  2008201    10000
+        Entering CANOPY:        2  2008201    10000
+          Exited CANOPY:        2  2008201    10000
+        Entering CANOPY:        3  2008201    10000
+          Exited CANOPY:        3  2008201    10000
+        Entering CANOPY:        4  2008201    10000
+          Exited CANOPY:        4  2008201    10000
+        Entering CANOPY:        5  2008201    10000
+          Exited CANOPY:        5  2008201    10000
+        Entering CANOPY:        6  2008201    10000
+          Exited CANOPY:        6  2008201    10000
+        Entering CANOPY:        7  2008201    10000
+          Exited CANOPY:        7  2008201    10000
+        Entering CANOPY:        8  2008201    10000
+          Exited CANOPY:        8  2008201    10000
+        Entering CANOPY:        9  2008201    10000
+          Exited CANOPY:        9  2008201    10000
+        Entering CANOPY:       10  2008201    10000
+          Exited CANOPY:       10  2008201    10000
+        Entering CANOPY:       11  2008201    10000
+          Exited CANOPY:       11  2008201    10000
+        Entering CANOPY:       12  2008201    10000
+          Exited CANOPY:       12  2008201    10000
+        Entering CANOPY:       13  2008201    10000
+          Exited CANOPY:       13  2008201    10000
+        Entering CANOPY:       14  2008201    10000
+          Exited CANOPY:       14  2008201    10000
+        Entering CANOPY:       15  2008201    10000
+          Exited CANOPY:       15  2008201    10000
+        Entering CANOPY:       16  2008201    10000
+          Exited CANOPY:       16  2008201    10000
+        Entering CANOPY:       17  2008201    10000
+          Exited CANOPY:       17  2008201    10000
+        Entering CANOPY:       18  2008201    10000
+          Exited CANOPY:       18  2008201    10000
+        Entering CANOPY:       19  2008201    10000
+          Exited CANOPY:       19  2008201    10000
+        Entering CANOPY:       20  2008201    10000
+          Exited CANOPY:       20  2008201    10000
+     Estimating soil NOx        2  2008201    10000
+     Using SOIL parameters in NOx adjustment
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.36 out of range at (C,R)= 27, 37 resetting to 315K
+     M3WARN:  DTBUF 1:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    316.19 out of range at (C,R)= 28, 37 resetting to 315K
+     M3WARN:  DTBUF 1:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.45 out of range at (C,R)= 29, 37 resetting to 315K
+     M3WARN:  DTBUF 1:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    316.05 out of range at (C,R)= 28, 38 resetting to 315K
+     M3WARN:  DTBUF 1:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.51 out of range at (C,R)= 29, 38 resetting to 315K
+     M3WARN:  DTBUF 1:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.04 out of range at (C,R)= 32, 38 resetting to 315K
+     M3WARN:  DTBUF 1:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    316.28 out of range at (C,R)= 27, 39 resetting to 315K
+     M3WARN:  DTBUF 1:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.53 out of range at (C,R)= 28, 39 resetting to 315K
+     M3WARN:  DTBUF 1:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.69 out of range at (C,R)= 27, 40 resetting to 315K
+     M3WARN:  DTBUF 1:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.15 out of range at (C,R)= 29, 41 resetting to 315K
+     M3WARN:  DTBUF 1:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.39 out of range at (C,R)= 29, 42 resetting to 315K
+     M3WARN:  DTBUF 1:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.77 out of range at (C,R)= 30, 42 resetting to 315K
+     M3WARN:  DTBUF 1:00:00   July 19, 2008
+     
+     >>--->> WARNING in subroutine SOILNOX
+     TAIR=    315.00 out of range at (C,R)= 30, 43 resetting to 315K
+     M3WARN:  DTBUF 1:00:00   July 19, 2008
+     Finished soil NOx ad       2  2008201    10000
+     Writing emission at        2  2008201    10000
+     ISOP written to MGNERS for   2008201:010000
+     MYRC written to MGNERS for   2008201:010000
+     SABI written to MGNERS for   2008201:010000
+     LIMO written to MGNERS for   2008201:010000
+     A_3CAR written to MGNERS for   2008201:010000
+     OCIM written to MGNERS for   2008201:010000
+     BPIN written to MGNERS for   2008201:010000
+     APIN written to MGNERS for   2008201:010000
+     OMTP written to MGNERS for   2008201:010000
+     FARN written to MGNERS for   2008201:010000
+     BCAR written to MGNERS for   2008201:010000
+     OSQT written to MGNERS for   2008201:010000
+     MBO written to MGNERS for   2008201:010000
+     MEOH written to MGNERS for   2008201:010000
+     ACTO written to MGNERS for   2008201:010000
+     CO written to MGNERS for   2008201:010000
+     NO written to MGNERS for   2008201:010000
+     BIDER written to MGNERS for   2008201:010000
+     STRESS written to MGNERS for   2008201:010000
+     OTHER written to MGNERS for   2008201:010000
+     D_TEMP written to MGNERS for   2008201:010000
+     D_PPFD written to MGNERS for   2008201:010000
+     LAT written to MGNERS for   2008201:010000
+     LONG written to MGNERS for   2008201:010000
+     CFNO written to MGNERS for   2008201:010000
+     CFNOG written to MGNERS for   2008201:010000
+     SLTYP written to MGNERS for   2008201:010000
+             Processing:        3  2008201    20000
+      Found LAI current period for YYYYJJJ :  2008201        1    10000
+     Found LAI previous period for YYYYJJJ :  2008201        1        0
+        Entering CANOPY:        1  2008201    20000
+          Exited CANOPY:        1  2008201    20000
+        Entering CANOPY:        2  2008201    20000
+          Exited CANOPY:        2  2008201    20000
+        Entering CANOPY:        3  2008201    20000
+          Exited CANOPY:        3  2008201    20000
+        Entering CANOPY:        4  2008201    20000
+          Exited CANOPY:        4  2008201    20000
+        Entering CANOPY:        5  2008201    20000
+          Exited CANOPY:        5  2008201    20000
+        Entering CANOPY:        6  2008201    20000
+          Exited CANOPY:        6  2008201    20000
+        Entering CANOPY:        7  2008201    20000
+          Exited CANOPY:        7  2008201    20000
+        Entering CANOPY:        8  2008201    20000
+          Exited CANOPY:        8  2008201    20000
+        Entering CANOPY:        9  2008201    20000
+          Exited CANOPY:        9  2008201    20000
+        Entering CANOPY:       10  2008201    20000
+          Exited CANOPY:       10  2008201    20000
+        Entering CANOPY:       11  2008201    20000
+          Exited CANOPY:       11  2008201    20000
+        Entering CANOPY:       12  2008201    20000
+          Exited CANOPY:       12  2008201    20000
+        Entering CANOPY:       13  2008201    20000
+          Exited CANOPY:       13  2008201    20000
+        Entering CANOPY:       14  2008201    20000
+          Exited CANOPY:       14  2008201    20000
+        Entering CANOPY:       15  2008201    20000
+          Exited CANOPY:       15  2008201    20000
+        Entering CANOPY:       16  2008201    20000
+          Exited CANOPY:       16  2008201    20000
+        Entering CANOPY:       17  2008201    20000
+          Exited CANOPY:       17  2008201    20000
+        Entering CANOPY:       18  2008201    20000
+          Exited CANOPY:       18  2008201    20000
+        Entering CANOPY:       19  2008201    20000
+          Exited CANOPY:       19  2008201    20000
+        Entering CANOPY:       20  2008201    20000
+          Exited CANOPY:       20  2008201    20000
+     Estimating soil NOx        3  2008201    20000
+     Using SOIL parameters in NOx adjustment
+     Finished soil NOx ad       3  2008201    20000
+     Writing emission at        3  2008201    20000
+     ISOP written to MGNERS for   2008201:020000
+     MYRC written to MGNERS for   2008201:020000
+     SABI written to MGNERS for   2008201:020000
+     LIMO written to MGNERS for   2008201:020000
+     A_3CAR written to MGNERS for   2008201:020000
+     OCIM written to MGNERS for   2008201:020000
+     BPIN written to MGNERS for   2008201:020000
+     APIN written to MGNERS for   2008201:020000
+     OMTP written to MGNERS for   2008201:020000
+     FARN written to MGNERS for   2008201:020000
+     BCAR written to MGNERS for   2008201:020000
+     OSQT written to MGNERS for   2008201:020000
+     MBO written to MGNERS for   2008201:020000
+     MEOH written to MGNERS for   2008201:020000
+     ACTO written to MGNERS for   2008201:020000
+     CO written to MGNERS for   2008201:020000
+     NO written to MGNERS for   2008201:020000
+     BIDER written to MGNERS for   2008201:020000
+     STRESS written to MGNERS for   2008201:020000
+     OTHER written to MGNERS for   2008201:020000
+     D_TEMP written to MGNERS for   2008201:020000
+     D_PPFD written to MGNERS for   2008201:020000
+     LAT written to MGNERS for   2008201:020000
+     LONG written to MGNERS for   2008201:020000
+     CFNO written to MGNERS for   2008201:020000
+     CFNOG written to MGNERS for   2008201:020000
+     SLTYP written to MGNERS for   2008201:020000
+             Processing:        4  2008201    30000
+      Found LAI current period for YYYYJJJ :  2008201        1    10000
+     Found LAI previous period for YYYYJJJ :  2008201        1        0
+        Entering CANOPY:        1  2008201    30000
+          Exited CANOPY:        1  2008201    30000
+        Entering CANOPY:        2  2008201    30000
+          Exited CANOPY:        2  2008201    30000
+        Entering CANOPY:        3  2008201    30000
+          Exited CANOPY:        3  2008201    30000
+        Entering CANOPY:        4  2008201    30000
+          Exited CANOPY:        4  2008201    30000
+        Entering CANOPY:        5  2008201    30000
+          Exited CANOPY:        5  2008201    30000
+        Entering CANOPY:        6  2008201    30000
+          Exited CANOPY:        6  2008201    30000
+        Entering CANOPY:        7  2008201    30000
+          Exited CANOPY:        7  2008201    30000
+        Entering CANOPY:        8  2008201    30000
+          Exited CANOPY:        8  2008201    30000
+        Entering CANOPY:        9  2008201    30000
+          Exited CANOPY:        9  2008201    30000
+        Entering CANOPY:       10  2008201    30000
+          Exited CANOPY:       10  2008201    30000
+        Entering CANOPY:       11  2008201    30000
+          Exited CANOPY:       11  2008201    30000
+        Entering CANOPY:       12  2008201    30000
+          Exited CANOPY:       12  2008201    30000
+        Entering CANOPY:       13  2008201    30000
+          Exited CANOPY:       13  2008201    30000
+        Entering CANOPY:       14  2008201    30000
+          Exited CANOPY:       14  2008201    30000
+        Entering CANOPY:       15  2008201    30000
+          Exited CANOPY:       15  2008201    30000
+        Entering CANOPY:       16  2008201    30000
+          Exited CANOPY:       16  2008201    30000
+        Entering CANOPY:       17  2008201    30000
+          Exited CANOPY:       17  2008201    30000
+        Entering CANOPY:       18  2008201    30000
+          Exited CANOPY:       18  2008201    30000
+        Entering CANOPY:       19  2008201    30000
+          Exited CANOPY:       19  2008201    30000
+        Entering CANOPY:       20  2008201    30000
+          Exited CANOPY:       20  2008201    30000
+     Estimating soil NOx        4  2008201    30000
+     Using SOIL parameters in NOx adjustment
+     Finished soil NOx ad       4  2008201    30000
+     Writing emission at        4  2008201    30000
+     ISOP written to MGNERS for   2008201:030000
+     MYRC written to MGNERS for   2008201:030000
+     SABI written to MGNERS for   2008201:030000
+     LIMO written to MGNERS for   2008201:030000
+     A_3CAR written to MGNERS for   2008201:030000
+     OCIM written to MGNERS for   2008201:030000
+     BPIN written to MGNERS for   2008201:030000
+     APIN written to MGNERS for   2008201:030000
+     OMTP written to MGNERS for   2008201:030000
+     FARN written to MGNERS for   2008201:030000
+     BCAR written to MGNERS for   2008201:030000
+     OSQT written to MGNERS for   2008201:030000
+     MBO written to MGNERS for   2008201:030000
+     MEOH written to MGNERS for   2008201:030000
+     ACTO written to MGNERS for   2008201:030000
+     CO written to MGNERS for   2008201:030000
+     NO written to MGNERS for   2008201:030000
+     BIDER written to MGNERS for   2008201:030000
+     STRESS written to MGNERS for   2008201:030000
+     OTHER written to MGNERS for   2008201:030000
+     D_TEMP written to MGNERS for   2008201:030000
+     D_PPFD written to MGNERS for   2008201:030000
+     LAT written to MGNERS for   2008201:030000
+     LONG written to MGNERS for   2008201:030000
+     CFNO written to MGNERS for   2008201:030000
+     CFNOG written to MGNERS for   2008201:030000
+     SLTYP written to MGNERS for   2008201:030000
+             Processing:        5  2008201    40000
+      Found LAI current period for YYYYJJJ :  2008201        1    10000
+     Found LAI previous period for YYYYJJJ :  2008201        1        0
+        Entering CANOPY:        1  2008201    40000
+          Exited CANOPY:        1  2008201    40000
+        Entering CANOPY:        2  2008201    40000
+          Exited CANOPY:        2  2008201    40000
+        Entering CANOPY:        3  2008201    40000
+          Exited CANOPY:        3  2008201    40000
+        Entering CANOPY:        4  2008201    40000
+          Exited CANOPY:        4  2008201    40000
+        Entering CANOPY:        5  2008201    40000
+          Exited CANOPY:        5  2008201    40000
+        Entering CANOPY:        6  2008201    40000
+          Exited CANOPY:        6  2008201    40000
+        Entering CANOPY:        7  2008201    40000
+          Exited CANOPY:        7  2008201    40000
+        Entering CANOPY:        8  2008201    40000
+          Exited CANOPY:        8  2008201    40000
+        Entering CANOPY:        9  2008201    40000
+          Exited CANOPY:        9  2008201    40000
+        Entering CANOPY:       10  2008201    40000
+          Exited CANOPY:       10  2008201    40000
+        Entering CANOPY:       11  2008201    40000
+          Exited CANOPY:       11  2008201    40000
+        Entering CANOPY:       12  2008201    40000
+          Exited CANOPY:       12  2008201    40000
+        Entering CANOPY:       13  2008201    40000
+          Exited CANOPY:       13  2008201    40000
+        Entering CANOPY:       14  2008201    40000
+          Exited CANOPY:       14  2008201    40000
+        Entering CANOPY:       15  2008201    40000
+          Exited CANOPY:       15  2008201    40000
+        Entering CANOPY:       16  2008201    40000
+          Exited CANOPY:       16  2008201    40000
+        Entering CANOPY:       17  2008201    40000
+          Exited CANOPY:       17  2008201    40000
+        Entering CANOPY:       18  2008201    40000
+          Exited CANOPY:       18  2008201    40000
+        Entering CANOPY:       19  2008201    40000
+          Exited CANOPY:       19  2008201    40000
+        Entering CANOPY:       20  2008201    40000
+          Exited CANOPY:       20  2008201    40000
+     Estimating soil NOx        5  2008201    40000
+     Using SOIL parameters in NOx adjustment
+     Finished soil NOx ad       5  2008201    40000
+     Writing emission at        5  2008201    40000
+     ISOP written to MGNERS for   2008201:040000
+     MYRC written to MGNERS for   2008201:040000
+     SABI written to MGNERS for   2008201:040000
+     LIMO written to MGNERS for   2008201:040000
+     A_3CAR written to MGNERS for   2008201:040000
+     OCIM written to MGNERS for   2008201:040000
+     BPIN written to MGNERS for   2008201:040000
+     APIN written to MGNERS for   2008201:040000
+     OMTP written to MGNERS for   2008201:040000
+     FARN written to MGNERS for   2008201:040000
+     BCAR written to MGNERS for   2008201:040000
+     OSQT written to MGNERS for   2008201:040000
+     MBO written to MGNERS for   2008201:040000
+     MEOH written to MGNERS for   2008201:040000
+     ACTO written to MGNERS for   2008201:040000
+     CO written to MGNERS for   2008201:040000
+     NO written to MGNERS for   2008201:040000
+     BIDER written to MGNERS for   2008201:040000
+     STRESS written to MGNERS for   2008201:040000
+     OTHER written to MGNERS for   2008201:040000
+     D_TEMP written to MGNERS for   2008201:040000
+     D_PPFD written to MGNERS for   2008201:040000
+     LAT written to MGNERS for   2008201:040000
+     LONG written to MGNERS for   2008201:040000
+     CFNO written to MGNERS for   2008201:040000
+     CFNOG written to MGNERS for   2008201:040000
+     SLTYP written to MGNERS for   2008201:040000
+             Processing:        6  2008201    50000
+      Found LAI current period for YYYYJJJ :  2008201        1    10000
+     Found LAI previous period for YYYYJJJ :  2008201        1        0
+        Entering CANOPY:        1  2008201    50000
+          Exited CANOPY:        1  2008201    50000
+        Entering CANOPY:        2  2008201    50000
+          Exited CANOPY:        2  2008201    50000
+        Entering CANOPY:        3  2008201    50000
+          Exited CANOPY:        3  2008201    50000
+        Entering CANOPY:        4  2008201    50000
+          Exited CANOPY:        4  2008201    50000
+        Entering CANOPY:        5  2008201    50000
+          Exited CANOPY:        5  2008201    50000
+        Entering CANOPY:        6  2008201    50000
+          Exited CANOPY:        6  2008201    50000
+        Entering CANOPY:        7  2008201    50000
+          Exited CANOPY:        7  2008201    50000
+        Entering CANOPY:        8  2008201    50000
+          Exited CANOPY:        8  2008201    50000
+        Entering CANOPY:        9  2008201    50000
+          Exited CANOPY:        9  2008201    50000
+        Entering CANOPY:       10  2008201    50000
+          Exited CANOPY:       10  2008201    50000
+        Entering CANOPY:       11  2008201    50000
+          Exited CANOPY:       11  2008201    50000
+        Entering CANOPY:       12  2008201    50000
+          Exited CANOPY:       12  2008201    50000
+        Entering CANOPY:       13  2008201    50000
+          Exited CANOPY:       13  2008201    50000
+        Entering CANOPY:       14  2008201    50000
+          Exited CANOPY:       14  2008201    50000
+        Entering CANOPY:       15  2008201    50000
+          Exited CANOPY:       15  2008201    50000
+        Entering CANOPY:       16  2008201    50000
+          Exited CANOPY:       16  2008201    50000
+        Entering CANOPY:       17  2008201    50000
+          Exited CANOPY:       17  2008201    50000
+        Entering CANOPY:       18  2008201    50000
+          Exited CANOPY:       18  2008201    50000
+        Entering CANOPY:       19  2008201    50000
+          Exited CANOPY:       19  2008201    50000
+        Entering CANOPY:       20  2008201    50000
+          Exited CANOPY:       20  2008201    50000
+     Estimating soil NOx        6  2008201    50000
+     Using SOIL parameters in NOx adjustment
+     Finished soil NOx ad       6  2008201    50000
+     Writing emission at        6  2008201    50000
+     ISOP written to MGNERS for   2008201:050000
+     MYRC written to MGNERS for   2008201:050000
+     SABI written to MGNERS for   2008201:050000
+     LIMO written to MGNERS for   2008201:050000
+     A_3CAR written to MGNERS for   2008201:050000
+     OCIM written to MGNERS for   2008201:050000
+     BPIN written to MGNERS for   2008201:050000
+     APIN written to MGNERS for   2008201:050000
+     OMTP written to MGNERS for   2008201:050000
+     FARN written to MGNERS for   2008201:050000
+     BCAR written to MGNERS for   2008201:050000
+     OSQT written to MGNERS for   2008201:050000
+     MBO written to MGNERS for   2008201:050000
+     MEOH written to MGNERS for   2008201:050000
+     ACTO written to MGNERS for   2008201:050000
+     CO written to MGNERS for   2008201:050000
+     NO written to MGNERS for   2008201:050000
+     BIDER written to MGNERS for   2008201:050000
+     STRESS written to MGNERS for   2008201:050000
+     OTHER written to MGNERS for   2008201:050000
+     D_TEMP written to MGNERS for   2008201:050000
+     D_PPFD written to MGNERS for   2008201:050000
+     LAT written to MGNERS for   2008201:050000
+     LONG written to MGNERS for   2008201:050000
+     CFNO written to MGNERS for   2008201:050000
+     CFNOG written to MGNERS for   2008201:050000
+     SLTYP written to MGNERS for   2008201:050000
+             Processing:        7  2008201    60000
+      Found LAI current period for YYYYJJJ :  2008201        1    10000
+     Found LAI previous period for YYYYJJJ :  2008201        1        0
+        Entering CANOPY:        1  2008201    60000
+          Exited CANOPY:        1  2008201    60000
+        Entering CANOPY:        2  2008201    60000
+          Exited CANOPY:        2  2008201    60000
+        Entering CANOPY:        3  2008201    60000
+          Exited CANOPY:        3  2008201    60000
+        Entering CANOPY:        4  2008201    60000
+          Exited CANOPY:        4  2008201    60000
+        Entering CANOPY:        5  2008201    60000
+          Exited CANOPY:        5  2008201    60000
+        Entering CANOPY:        6  2008201    60000
+          Exited CANOPY:        6  2008201    60000
+        Entering CANOPY:        7  2008201    60000
+          Exited CANOPY:        7  2008201    60000
+        Entering CANOPY:        8  2008201    60000
+          Exited CANOPY:        8  2008201    60000
+        Entering CANOPY:        9  2008201    60000
+          Exited CANOPY:        9  2008201    60000
+        Entering CANOPY:       10  2008201    60000
+          Exited CANOPY:       10  2008201    60000
+        Entering CANOPY:       11  2008201    60000
+          Exited CANOPY:       11  2008201    60000
+        Entering CANOPY:       12  2008201    60000
+          Exited CANOPY:       12  2008201    60000
+        Entering CANOPY:       13  2008201    60000
+          Exited CANOPY:       13  2008201    60000
+        Entering CANOPY:       14  2008201    60000
+          Exited CANOPY:       14  2008201    60000
+        Entering CANOPY:       15  2008201    60000
+          Exited CANOPY:       15  2008201    60000
+        Entering CANOPY:       16  2008201    60000
+          Exited CANOPY:       16  2008201    60000
+        Entering CANOPY:       17  2008201    60000
+          Exited CANOPY:       17  2008201    60000
+        Entering CANOPY:       18  2008201    60000
+          Exited CANOPY:       18  2008201    60000
+        Entering CANOPY:       19  2008201    60000
+          Exited CANOPY:       19  2008201    60000
+        Entering CANOPY:       20  2008201    60000
+          Exited CANOPY:       20  2008201    60000
+     Estimating soil NOx        7  2008201    60000
+     Using SOIL parameters in NOx adjustment
+     Finished soil NOx ad       7  2008201    60000
+     Writing emission at        7  2008201    60000
+     ISOP written to MGNERS for   2008201:060000
+     MYRC written to MGNERS for   2008201:060000
+     SABI written to MGNERS for   2008201:060000
+     LIMO written to MGNERS for   2008201:060000
+     A_3CAR written to MGNERS for   2008201:060000
+     OCIM written to MGNERS for   2008201:060000
+     BPIN written to MGNERS for   2008201:060000
+     APIN written to MGNERS for   2008201:060000
+     OMTP written to MGNERS for   2008201:060000
+     FARN written to MGNERS for   2008201:060000
+     BCAR written to MGNERS for   2008201:060000
+     OSQT written to MGNERS for   2008201:060000
+     MBO written to MGNERS for   2008201:060000
+     MEOH written to MGNERS for   2008201:060000
+     ACTO written to MGNERS for   2008201:060000
+     CO written to MGNERS for   2008201:060000
+     NO written to MGNERS for   2008201:060000
+     BIDER written to MGNERS for   2008201:060000
+     STRESS written to MGNERS for   2008201:060000
+     OTHER written to MGNERS for   2008201:060000
+     D_TEMP written to MGNERS for   2008201:060000
+     D_PPFD written to MGNERS for   2008201:060000
+     LAT written to MGNERS for   2008201:060000
+     LONG written to MGNERS for   2008201:060000
+     CFNO written to MGNERS for   2008201:060000
+     CFNOG written to MGNERS for   2008201:060000
+     SLTYP written to MGNERS for   2008201:060000
+             Processing:        8  2008201    70000
+      Found LAI current period for YYYYJJJ :  2008201        1    10000
+     Found LAI previous period for YYYYJJJ :  2008201        1        0
+        Entering CANOPY:        1  2008201    70000
+          Exited CANOPY:        1  2008201    70000
+        Entering CANOPY:        2  2008201    70000
+          Exited CANOPY:        2  2008201    70000
+        Entering CANOPY:        3  2008201    70000
+          Exited CANOPY:        3  2008201    70000
+        Entering CANOPY:        4  2008201    70000
+          Exited CANOPY:        4  2008201    70000
+        Entering CANOPY:        5  2008201    70000
+          Exited CANOPY:        5  2008201    70000
+        Entering CANOPY:        6  2008201    70000
+          Exited CANOPY:        6  2008201    70000
+        Entering CANOPY:        7  2008201    70000
+          Exited CANOPY:        7  2008201    70000
+        Entering CANOPY:        8  2008201    70000
+          Exited CANOPY:        8  2008201    70000
+        Entering CANOPY:        9  2008201    70000
+          Exited CANOPY:        9  2008201    70000
+        Entering CANOPY:       10  2008201    70000
+          Exited CANOPY:       10  2008201    70000
+        Entering CANOPY:       11  2008201    70000
+          Exited CANOPY:       11  2008201    70000
+        Entering CANOPY:       12  2008201    70000
+          Exited CANOPY:       12  2008201    70000
+        Entering CANOPY:       13  2008201    70000
+          Exited CANOPY:       13  2008201    70000
+        Entering CANOPY:       14  2008201    70000
+          Exited CANOPY:       14  2008201    70000
+        Entering CANOPY:       15  2008201    70000
+          Exited CANOPY:       15  2008201    70000
+        Entering CANOPY:       16  2008201    70000
+          Exited CANOPY:       16  2008201    70000
+        Entering CANOPY:       17  2008201    70000
+          Exited CANOPY:       17  2008201    70000
+        Entering CANOPY:       18  2008201    70000
+          Exited CANOPY:       18  2008201    70000
+        Entering CANOPY:       19  2008201    70000
+          Exited CANOPY:       19  2008201    70000
+        Entering CANOPY:       20  2008201    70000
+          Exited CANOPY:       20  2008201    70000
+     Estimating soil NOx        8  2008201    70000
+     Using SOIL parameters in NOx adjustment
+     Finished soil NOx ad       8  2008201    70000
+     Writing emission at        8  2008201    70000
+     ISOP written to MGNERS for   2008201:070000
+     MYRC written to MGNERS for   2008201:070000
+     SABI written to MGNERS for   2008201:070000
+     LIMO written to MGNERS for   2008201:070000
+     A_3CAR written to MGNERS for   2008201:070000
+     OCIM written to MGNERS for   2008201:070000
+     BPIN written to MGNERS for   2008201:070000
+     APIN written to MGNERS for   2008201:070000
+     OMTP written to MGNERS for   2008201:070000
+     FARN written to MGNERS for   2008201:070000
+     BCAR written to MGNERS for   2008201:070000
+     OSQT written to MGNERS for   2008201:070000
+     MBO written to MGNERS for   2008201:070000
+     MEOH written to MGNERS for   2008201:070000
+     ACTO written to MGNERS for   2008201:070000
+     CO written to MGNERS for   2008201:070000
+     NO written to MGNERS for   2008201:070000
+     BIDER written to MGNERS for   2008201:070000
+     STRESS written to MGNERS for   2008201:070000
+     OTHER written to MGNERS for   2008201:070000
+     D_TEMP written to MGNERS for   2008201:070000
+     D_PPFD written to MGNERS for   2008201:070000
+     LAT written to MGNERS for   2008201:070000
+     LONG written to MGNERS for   2008201:070000
+     CFNO written to MGNERS for   2008201:070000
+     CFNOG written to MGNERS for   2008201:070000
+     SLTYP written to MGNERS for   2008201:070000
+             Processing:        9  2008201    80000
+      Found LAI current period for YYYYJJJ :  2008201        1    10000
+     Found LAI previous period for YYYYJJJ :  2008201        1        0
+        Entering CANOPY:        1  2008201    80000
+          Exited CANOPY:        1  2008201    80000
+        Entering CANOPY:        2  2008201    80000
+          Exited CANOPY:        2  2008201    80000
+        Entering CANOPY:        3  2008201    80000
+          Exited CANOPY:        3  2008201    80000
+        Entering CANOPY:        4  2008201    80000
+          Exited CANOPY:        4  2008201    80000
+        Entering CANOPY:        5  2008201    80000
+          Exited CANOPY:        5  2008201    80000
+        Entering CANOPY:        6  2008201    80000
+          Exited CANOPY:        6  2008201    80000
+        Entering CANOPY:        7  2008201    80000
+          Exited CANOPY:        7  2008201    80000
+        Entering CANOPY:        8  2008201    80000
+          Exited CANOPY:        8  2008201    80000
+        Entering CANOPY:        9  2008201    80000
+          Exited CANOPY:        9  2008201    80000
+        Entering CANOPY:       10  2008201    80000
+          Exited CANOPY:       10  2008201    80000
+        Entering CANOPY:       11  2008201    80000
+          Exited CANOPY:       11  2008201    80000
+        Entering CANOPY:       12  2008201    80000
+          Exited CANOPY:       12  2008201    80000
+        Entering CANOPY:       13  2008201    80000
+          Exited CANOPY:       13  2008201    80000
+        Entering CANOPY:       14  2008201    80000
+          Exited CANOPY:       14  2008201    80000
+        Entering CANOPY:       15  2008201    80000
+          Exited CANOPY:       15  2008201    80000
+        Entering CANOPY:       16  2008201    80000
+          Exited CANOPY:       16  2008201    80000
+        Entering CANOPY:       17  2008201    80000
+          Exited CANOPY:       17  2008201    80000
+        Entering CANOPY:       18  2008201    80000
+          Exited CANOPY:       18  2008201    80000
+        Entering CANOPY:       19  2008201    80000
+          Exited CANOPY:       19  2008201    80000
+        Entering CANOPY:       20  2008201    80000
+          Exited CANOPY:       20  2008201    80000
+     Estimating soil NOx        9  2008201    80000
+     Using SOIL parameters in NOx adjustment
+     Finished soil NOx ad       9  2008201    80000
+     Writing emission at        9  2008201    80000
+     ISOP written to MGNERS for   2008201:080000
+     MYRC written to MGNERS for   2008201:080000
+     SABI written to MGNERS for   2008201:080000
+     LIMO written to MGNERS for   2008201:080000
+     A_3CAR written to MGNERS for   2008201:080000
+     OCIM written to MGNERS for   2008201:080000
+     BPIN written to MGNERS for   2008201:080000
+     APIN written to MGNERS for   2008201:080000
+     OMTP written to MGNERS for   2008201:080000
+     FARN written to MGNERS for   2008201:080000
+     BCAR written to MGNERS for   2008201:080000
+     OSQT written to MGNERS for   2008201:080000
+     MBO written to MGNERS for   2008201:080000
+     MEOH written to MGNERS for   2008201:080000
+     ACTO written to MGNERS for   2008201:080000
+     CO written to MGNERS for   2008201:080000
+     NO written to MGNERS for   2008201:080000
+     BIDER written to MGNERS for   2008201:080000
+     STRESS written to MGNERS for   2008201:080000
+     OTHER written to MGNERS for   2008201:080000
+     D_TEMP written to MGNERS for   2008201:080000
+     D_PPFD written to MGNERS for   2008201:080000
+     LAT written to MGNERS for   2008201:080000
+     LONG written to MGNERS for   2008201:080000
+     CFNO written to MGNERS for   2008201:080000
+     CFNOG written to MGNERS for   2008201:080000
+     SLTYP written to MGNERS for   2008201:080000
+             Processing:       10  2008201    90000
+      Found LAI current period for YYYYJJJ :  2008201        1    10000
+     Found LAI previous period for YYYYJJJ :  2008201        1        0
+        Entering CANOPY:        1  2008201    90000
+          Exited CANOPY:        1  2008201    90000
+        Entering CANOPY:        2  2008201    90000
+          Exited CANOPY:        2  2008201    90000
+        Entering CANOPY:        3  2008201    90000
+          Exited CANOPY:        3  2008201    90000
+        Entering CANOPY:        4  2008201    90000
+          Exited CANOPY:        4  2008201    90000
+        Entering CANOPY:        5  2008201    90000
+          Exited CANOPY:        5  2008201    90000
+        Entering CANOPY:        6  2008201    90000
+          Exited CANOPY:        6  2008201    90000
+        Entering CANOPY:        7  2008201    90000
+          Exited CANOPY:        7  2008201    90000
+        Entering CANOPY:        8  2008201    90000
+          Exited CANOPY:        8  2008201    90000
+        Entering CANOPY:        9  2008201    90000
+          Exited CANOPY:        9  2008201    90000
+        Entering CANOPY:       10  2008201    90000
+          Exited CANOPY:       10  2008201    90000
+        Entering CANOPY:       11  2008201    90000
+          Exited CANOPY:       11  2008201    90000
+        Entering CANOPY:       12  2008201    90000
+          Exited CANOPY:       12  2008201    90000
+        Entering CANOPY:       13  2008201    90000
+          Exited CANOPY:       13  2008201    90000
+        Entering CANOPY:       14  2008201    90000
+          Exited CANOPY:       14  2008201    90000
+        Entering CANOPY:       15  2008201    90000
+          Exited CANOPY:       15  2008201    90000
+        Entering CANOPY:       16  2008201    90000
+          Exited CANOPY:       16  2008201    90000
+        Entering CANOPY:       17  2008201    90000
+          Exited CANOPY:       17  2008201    90000
+        Entering CANOPY:       18  2008201    90000
+          Exited CANOPY:       18  2008201    90000
+        Entering CANOPY:       19  2008201    90000
+          Exited CANOPY:       19  2008201    90000
+        Entering CANOPY:       20  2008201    90000
+          Exited CANOPY:       20  2008201    90000
+     Estimating soil NOx       10  2008201    90000
+     Using SOIL parameters in NOx adjustment
+     Finished soil NOx ad      10  2008201    90000
+     Writing emission at       10  2008201    90000
+     ISOP written to MGNERS for   2008201:090000
+     MYRC written to MGNERS for   2008201:090000
+     SABI written to MGNERS for   2008201:090000
+     LIMO written to MGNERS for   2008201:090000
+     A_3CAR written to MGNERS for   2008201:090000
+     OCIM written to MGNERS for   2008201:090000
+     BPIN written to MGNERS for   2008201:090000
+     APIN written to MGNERS for   2008201:090000
+     OMTP written to MGNERS for   2008201:090000
+     FARN written to MGNERS for   2008201:090000
+     BCAR written to MGNERS for   2008201:090000
+     OSQT written to MGNERS for   2008201:090000
+     MBO written to MGNERS for   2008201:090000
+     MEOH written to MGNERS for   2008201:090000
+     ACTO written to MGNERS for   2008201:090000
+     CO written to MGNERS for   2008201:090000
+     NO written to MGNERS for   2008201:090000
+     BIDER written to MGNERS for   2008201:090000
+     STRESS written to MGNERS for   2008201:090000
+     OTHER written to MGNERS for   2008201:090000
+     D_TEMP written to MGNERS for   2008201:090000
+     D_PPFD written to MGNERS for   2008201:090000
+     LAT written to MGNERS for   2008201:090000
+     LONG written to MGNERS for   2008201:090000
+     CFNO written to MGNERS for   2008201:090000
+     CFNOG written to MGNERS for   2008201:090000
+     SLTYP written to MGNERS for   2008201:090000
+             Processing:       11  2008201   100000
+      Found LAI current period for YYYYJJJ :  2008201        1    10000
+     Found LAI previous period for YYYYJJJ :  2008201        1        0
+        Entering CANOPY:        1  2008201   100000
+          Exited CANOPY:        1  2008201   100000
+        Entering CANOPY:        2  2008201   100000
+          Exited CANOPY:        2  2008201   100000
+        Entering CANOPY:        3  2008201   100000
+          Exited CANOPY:        3  2008201   100000
+        Entering CANOPY:        4  2008201   100000
+          Exited CANOPY:        4  2008201   100000
+        Entering CANOPY:        5  2008201   100000
+          Exited CANOPY:        5  2008201   100000
+        Entering CANOPY:        6  2008201   100000
+          Exited CANOPY:        6  2008201   100000
+        Entering CANOPY:        7  2008201   100000
+          Exited CANOPY:        7  2008201   100000
+        Entering CANOPY:        8  2008201   100000
+          Exited CANOPY:        8  2008201   100000
+        Entering CANOPY:        9  2008201   100000
+          Exited CANOPY:        9  2008201   100000
+        Entering CANOPY:       10  2008201   100000
+          Exited CANOPY:       10  2008201   100000
+        Entering CANOPY:       11  2008201   100000
+          Exited CANOPY:       11  2008201   100000
+        Entering CANOPY:       12  2008201   100000
+          Exited CANOPY:       12  2008201   100000
+        Entering CANOPY:       13  2008201   100000
+          Exited CANOPY:       13  2008201   100000
+        Entering CANOPY:       14  2008201   100000
+          Exited CANOPY:       14  2008201   100000
+        Entering CANOPY:       15  2008201   100000
+          Exited CANOPY:       15  2008201   100000
+        Entering CANOPY:       16  2008201   100000
+          Exited CANOPY:       16  2008201   100000
+        Entering CANOPY:       17  2008201   100000
+          Exited CANOPY:       17  2008201   100000
+        Entering CANOPY:       18  2008201   100000
+          Exited CANOPY:       18  2008201   100000
+        Entering CANOPY:       19  2008201   100000
+          Exited CANOPY:       19  2008201   100000
+        Entering CANOPY:       20  2008201   100000
+          Exited CANOPY:       20  2008201   100000
+     Estimating soil NOx       11  2008201   100000
+     Using SOIL parameters in NOx adjustment
+     Finished soil NOx ad      11  2008201   100000
+     Writing emission at       11  2008201   100000
+     ISOP written to MGNERS for   2008201:100000
+     MYRC written to MGNERS for   2008201:100000
+     SABI written to MGNERS for   2008201:100000
+     LIMO written to MGNERS for   2008201:100000
+     A_3CAR written to MGNERS for   2008201:100000
+     OCIM written to MGNERS for   2008201:100000
+     BPIN written to MGNERS for   2008201:100000
+     APIN written to MGNERS for   2008201:100000
+     OMTP written to MGNERS for   2008201:100000
+     FARN written to MGNERS for   2008201:100000
+     BCAR written to MGNERS for   2008201:100000
+     OSQT written to MGNERS for   2008201:100000
+     MBO written to MGNERS for   2008201:100000
+     MEOH written to MGNERS for   2008201:100000
+     ACTO written to MGNERS for   2008201:100000
+     CO written to MGNERS for   2008201:100000
+     NO written to MGNERS for   2008201:100000
+     BIDER written to MGNERS for   2008201:100000
+     STRESS written to MGNERS for   2008201:100000
+     OTHER written to MGNERS for   2008201:100000
+     D_TEMP written to MGNERS for   2008201:100000
+     D_PPFD written to MGNERS for   2008201:100000
+     LAT written to MGNERS for   2008201:100000
+     LONG written to MGNERS for   2008201:100000
+     CFNO written to MGNERS for   2008201:100000
+     CFNOG written to MGNERS for   2008201:100000
+     SLTYP written to MGNERS for   2008201:100000
+             Processing:       12  2008201   110000
+      Found LAI current period for YYYYJJJ :  2008201        1    10000
+     Found LAI previous period for YYYYJJJ :  2008201        1        0
+        Entering CANOPY:        1  2008201   110000
+          Exited CANOPY:        1  2008201   110000
+        Entering CANOPY:        2  2008201   110000
+          Exited CANOPY:        2  2008201   110000
+        Entering CANOPY:        3  2008201   110000
+          Exited CANOPY:        3  2008201   110000
+        Entering CANOPY:        4  2008201   110000
+          Exited CANOPY:        4  2008201   110000
+        Entering CANOPY:        5  2008201   110000
+          Exited CANOPY:        5  2008201   110000
+        Entering CANOPY:        6  2008201   110000
+          Exited CANOPY:        6  2008201   110000
+        Entering CANOPY:        7  2008201   110000
+          Exited CANOPY:        7  2008201   110000
+        Entering CANOPY:        8  2008201   110000
+          Exited CANOPY:        8  2008201   110000
+        Entering CANOPY:        9  2008201   110000
+          Exited CANOPY:        9  2008201   110000
+        Entering CANOPY:       10  2008201   110000
+          Exited CANOPY:       10  2008201   110000
+        Entering CANOPY:       11  2008201   110000
+          Exited CANOPY:       11  2008201   110000
+        Entering CANOPY:       12  2008201   110000
+          Exited CANOPY:       12  2008201   110000
+        Entering CANOPY:       13  2008201   110000
+          Exited CANOPY:       13  2008201   110000
+        Entering CANOPY:       14  2008201   110000
+          Exited CANOPY:       14  2008201   110000
+        Entering CANOPY:       15  2008201   110000
+          Exited CANOPY:       15  2008201   110000
+        Entering CANOPY:       16  2008201   110000
+          Exited CANOPY:       16  2008201   110000
+        Entering CANOPY:       17  2008201   110000
+          Exited CANOPY:       17  2008201   110000
+        Entering CANOPY:       18  2008201   110000
+          Exited CANOPY:       18  2008201   110000
+        Entering CANOPY:       19  2008201   110000
+          Exited CANOPY:       19  2008201   110000
+        Entering CANOPY:       20  2008201   110000
+          Exited CANOPY:       20  2008201   110000
+     Estimating soil NOx       12  2008201   110000
+     Using SOIL parameters in NOx adjustment
+     Finished soil NOx ad      12  2008201   110000
+     Writing emission at       12  2008201   110000
+     ISOP written to MGNERS for   2008201:110000
+     MYRC written to MGNERS for   2008201:110000
+     SABI written to MGNERS for   2008201:110000
+     LIMO written to MGNERS for   2008201:110000
+     A_3CAR written to MGNERS for   2008201:110000
+     OCIM written to MGNERS for   2008201:110000
+     BPIN written to MGNERS for   2008201:110000
+     APIN written to MGNERS for   2008201:110000
+     OMTP written to MGNERS for   2008201:110000
+     FARN written to MGNERS for   2008201:110000
+     BCAR written to MGNERS for   2008201:110000
+     OSQT written to MGNERS for   2008201:110000
+     MBO written to MGNERS for   2008201:110000
+     MEOH written to MGNERS for   2008201:110000
+     ACTO written to MGNERS for   2008201:110000
+     CO written to MGNERS for   2008201:110000
+     NO written to MGNERS for   2008201:110000
+     BIDER written to MGNERS for   2008201:110000
+     STRESS written to MGNERS for   2008201:110000
+     OTHER written to MGNERS for   2008201:110000
+     D_TEMP written to MGNERS for   2008201:110000
+     D_PPFD written to MGNERS for   2008201:110000
+     LAT written to MGNERS for   2008201:110000
+     LONG written to MGNERS for   2008201:110000
+     CFNO written to MGNERS for   2008201:110000
+     CFNOG written to MGNERS for   2008201:110000
+     SLTYP written to MGNERS for   2008201:110000
+             Processing:       13  2008201   120000
+      Found LAI current period for YYYYJJJ :  2008201        1    10000
+     Found LAI previous period for YYYYJJJ :  2008201        1        0
+        Entering CANOPY:        1  2008201   120000
+          Exited CANOPY:        1  2008201   120000
+        Entering CANOPY:        2  2008201   120000
+          Exited CANOPY:        2  2008201   120000
+        Entering CANOPY:        3  2008201   120000
+          Exited CANOPY:        3  2008201   120000
+        Entering CANOPY:        4  2008201   120000
+          Exited CANOPY:        4  2008201   120000
+        Entering CANOPY:        5  2008201   120000
+          Exited CANOPY:        5  2008201   120000
+        Entering CANOPY:        6  2008201   120000
+          Exited CANOPY:        6  2008201   120000
+        Entering CANOPY:        7  2008201   120000
+          Exited CANOPY:        7  2008201   120000
+        Entering CANOPY:        8  2008201   120000
+          Exited CANOPY:        8  2008201   120000
+        Entering CANOPY:        9  2008201   120000
+          Exited CANOPY:        9  2008201   120000
+        Entering CANOPY:       10  2008201   120000
+          Exited CANOPY:       10  2008201   120000
+        Entering CANOPY:       11  2008201   120000
+          Exited CANOPY:       11  2008201   120000
+        Entering CANOPY:       12  2008201   120000
+          Exited CANOPY:       12  2008201   120000
+        Entering CANOPY:       13  2008201   120000
+          Exited CANOPY:       13  2008201   120000
+        Entering CANOPY:       14  2008201   120000
+          Exited CANOPY:       14  2008201   120000
+        Entering CANOPY:       15  2008201   120000
+          Exited CANOPY:       15  2008201   120000
+        Entering CANOPY:       16  2008201   120000
+          Exited CANOPY:       16  2008201   120000
+        Entering CANOPY:       17  2008201   120000
+          Exited CANOPY:       17  2008201   120000
+        Entering CANOPY:       18  2008201   120000
+          Exited CANOPY:       18  2008201   120000
+        Entering CANOPY:       19  2008201   120000
+          Exited CANOPY:       19  2008201   120000
+        Entering CANOPY:       20  2008201   120000
+          Exited CANOPY:       20  2008201   120000
+     Estimating soil NOx       13  2008201   120000
+     Using SOIL parameters in NOx adjustment
+     Finished soil NOx ad      13  2008201   120000
+     Writing emission at       13  2008201   120000
+     ISOP written to MGNERS for   2008201:120000
+     MYRC written to MGNERS for   2008201:120000
+     SABI written to MGNERS for   2008201:120000
+     LIMO written to MGNERS for   2008201:120000
+     A_3CAR written to MGNERS for   2008201:120000
+     OCIM written to MGNERS for   2008201:120000
+     BPIN written to MGNERS for   2008201:120000
+     APIN written to MGNERS for   2008201:120000
+     OMTP written to MGNERS for   2008201:120000
+     FARN written to MGNERS for   2008201:120000
+     BCAR written to MGNERS for   2008201:120000
+     OSQT written to MGNERS for   2008201:120000
+     MBO written to MGNERS for   2008201:120000
+     MEOH written to MGNERS for   2008201:120000
+     ACTO written to MGNERS for   2008201:120000
+     CO written to MGNERS for   2008201:120000
+     NO written to MGNERS for   2008201:120000
+     BIDER written to MGNERS for   2008201:120000
+     STRESS written to MGNERS for   2008201:120000
+     OTHER written to MGNERS for   2008201:120000
+     D_TEMP written to MGNERS for   2008201:120000
+     D_PPFD written to MGNERS for   2008201:120000
+     LAT written to MGNERS for   2008201:120000
+     LONG written to MGNERS for   2008201:120000
+     CFNO written to MGNERS for   2008201:120000
+     CFNOG written to MGNERS for   2008201:120000
+     SLTYP written to MGNERS for   2008201:120000
+             Processing:       14  2008201   130000
+      Found LAI current period for YYYYJJJ :  2008201        1    10000
+     Found LAI previous period for YYYYJJJ :  2008201        1        0
+        Entering CANOPY:        1  2008201   130000
+          Exited CANOPY:        1  2008201   130000
+        Entering CANOPY:        2  2008201   130000
+          Exited CANOPY:        2  2008201   130000
+        Entering CANOPY:        3  2008201   130000
+          Exited CANOPY:        3  2008201   130000
+        Entering CANOPY:        4  2008201   130000
+          Exited CANOPY:        4  2008201   130000
+        Entering CANOPY:        5  2008201   130000
+          Exited CANOPY:        5  2008201   130000
+        Entering CANOPY:        6  2008201   130000
+          Exited CANOPY:        6  2008201   130000
+        Entering CANOPY:        7  2008201   130000
+          Exited CANOPY:        7  2008201   130000
+        Entering CANOPY:        8  2008201   130000
+          Exited CANOPY:        8  2008201   130000
+        Entering CANOPY:        9  2008201   130000
+          Exited CANOPY:        9  2008201   130000
+        Entering CANOPY:       10  2008201   130000
+          Exited CANOPY:       10  2008201   130000
+        Entering CANOPY:       11  2008201   130000
+          Exited CANOPY:       11  2008201   130000
+        Entering CANOPY:       12  2008201   130000
+          Exited CANOPY:       12  2008201   130000
+        Entering CANOPY:       13  2008201   130000
+          Exited CANOPY:       13  2008201   130000
+        Entering CANOPY:       14  2008201   130000
+          Exited CANOPY:       14  2008201   130000
+        Entering CANOPY:       15  2008201   130000
+          Exited CANOPY:       15  2008201   130000
+        Entering CANOPY:       16  2008201   130000
+          Exited CANOPY:       16  2008201   130000
+        Entering CANOPY:       17  2008201   130000
+          Exited CANOPY:       17  2008201   130000
+        Entering CANOPY:       18  2008201   130000
+          Exited CANOPY:       18  2008201   130000
+        Entering CANOPY:       19  2008201   130000
+          Exited CANOPY:       19  2008201   130000
+        Entering CANOPY:       20  2008201   130000
+          Exited CANOPY:       20  2008201   130000
+     Estimating soil NOx       14  2008201   130000
+     Using SOIL parameters in NOx adjustment
+     Finished soil NOx ad      14  2008201   130000
+     Writing emission at       14  2008201   130000
+     ISOP written to MGNERS for   2008201:130000
+     MYRC written to MGNERS for   2008201:130000
+     SABI written to MGNERS for   2008201:130000
+     LIMO written to MGNERS for   2008201:130000
+     A_3CAR written to MGNERS for   2008201:130000
+     OCIM written to MGNERS for   2008201:130000
+     BPIN written to MGNERS for   2008201:130000
+     APIN written to MGNERS for   2008201:130000
+     OMTP written to MGNERS for   2008201:130000
+     FARN written to MGNERS for   2008201:130000
+     BCAR written to MGNERS for   2008201:130000
+     OSQT written to MGNERS for   2008201:130000
+     MBO written to MGNERS for   2008201:130000
+     MEOH written to MGNERS for   2008201:130000
+     ACTO written to MGNERS for   2008201:130000
+     CO written to MGNERS for   2008201:130000
+     NO written to MGNERS for   2008201:130000
+     BIDER written to MGNERS for   2008201:130000
+     STRESS written to MGNERS for   2008201:130000
+     OTHER written to MGNERS for   2008201:130000
+     D_TEMP written to MGNERS for   2008201:130000
+     D_PPFD written to MGNERS for   2008201:130000
+     LAT written to MGNERS for   2008201:130000
+     LONG written to MGNERS for   2008201:130000
+     CFNO written to MGNERS for   2008201:130000
+     CFNOG written to MGNERS for   2008201:130000
+     SLTYP written to MGNERS for   2008201:130000
+             Processing:       15  2008201   140000
+      Found LAI current period for YYYYJJJ :  2008201        1    10000
+     Found LAI previous period for YYYYJJJ :  2008201        1        0
+        Entering CANOPY:        1  2008201   140000
+          Exited CANOPY:        1  2008201   140000
+        Entering CANOPY:        2  2008201   140000
+          Exited CANOPY:        2  2008201   140000
+        Entering CANOPY:        3  2008201   140000
+          Exited CANOPY:        3  2008201   140000
+        Entering CANOPY:        4  2008201   140000
+          Exited CANOPY:        4  2008201   140000
+        Entering CANOPY:        5  2008201   140000
+          Exited CANOPY:        5  2008201   140000
+        Entering CANOPY:        6  2008201   140000
+          Exited CANOPY:        6  2008201   140000
+        Entering CANOPY:        7  2008201   140000
+          Exited CANOPY:        7  2008201   140000
+        Entering CANOPY:        8  2008201   140000
+          Exited CANOPY:        8  2008201   140000
+        Entering CANOPY:        9  2008201   140000
+          Exited CANOPY:        9  2008201   140000
+        Entering CANOPY:       10  2008201   140000
+          Exited CANOPY:       10  2008201   140000
+        Entering CANOPY:       11  2008201   140000
+          Exited CANOPY:       11  2008201   140000
+        Entering CANOPY:       12  2008201   140000
+          Exited CANOPY:       12  2008201   140000
+        Entering CANOPY:       13  2008201   140000
+          Exited CANOPY:       13  2008201   140000
+        Entering CANOPY:       14  2008201   140000
+          Exited CANOPY:       14  2008201   140000
+        Entering CANOPY:       15  2008201   140000
+          Exited CANOPY:       15  2008201   140000
+        Entering CANOPY:       16  2008201   140000
+          Exited CANOPY:       16  2008201   140000
+        Entering CANOPY:       17  2008201   140000
+          Exited CANOPY:       17  2008201   140000
+        Entering CANOPY:       18  2008201   140000
+          Exited CANOPY:       18  2008201   140000
+        Entering CANOPY:       19  2008201   140000
+          Exited CANOPY:       19  2008201   140000
+        Entering CANOPY:       20  2008201   140000
+          Exited CANOPY:       20  2008201   140000
+     Estimating soil NOx       15  2008201   140000
+     Using SOIL parameters in NOx adjustment
+     Finished soil NOx ad      15  2008201   140000
+     Writing emission at       15  2008201   140000
+     ISOP written to MGNERS for   2008201:140000
+     MYRC written to MGNERS for   2008201:140000
+     SABI written to MGNERS for   2008201:140000
+     LIMO written to MGNERS for   2008201:140000
+     A_3CAR written to MGNERS for   2008201:140000
+     OCIM written to MGNERS for   2008201:140000
+     BPIN written to MGNERS for   2008201:140000
+     APIN written to MGNERS for   2008201:140000
+     OMTP written to MGNERS for   2008201:140000
+     FARN written to MGNERS for   2008201:140000
+     BCAR written to MGNERS for   2008201:140000
+     OSQT written to MGNERS for   2008201:140000
+     MBO written to MGNERS for   2008201:140000
+     MEOH written to MGNERS for   2008201:140000
+     ACTO written to MGNERS for   2008201:140000
+     CO written to MGNERS for   2008201:140000
+     NO written to MGNERS for   2008201:140000
+     BIDER written to MGNERS for   2008201:140000
+     STRESS written to MGNERS for   2008201:140000
+     OTHER written to MGNERS for   2008201:140000
+     D_TEMP written to MGNERS for   2008201:140000
+     D_PPFD written to MGNERS for   2008201:140000
+     LAT written to MGNERS for   2008201:140000
+     LONG written to MGNERS for   2008201:140000
+     CFNO written to MGNERS for   2008201:140000
+     CFNOG written to MGNERS for   2008201:140000
+     SLTYP written to MGNERS for   2008201:140000
+             Processing:       16  2008201   150000
+      Found LAI current period for YYYYJJJ :  2008201        1    10000
+     Found LAI previous period for YYYYJJJ :  2008201        1        0
+        Entering CANOPY:        1  2008201   150000
+          Exited CANOPY:        1  2008201   150000
+        Entering CANOPY:        2  2008201   150000
+          Exited CANOPY:        2  2008201   150000
+        Entering CANOPY:        3  2008201   150000
+          Exited CANOPY:        3  2008201   150000
+        Entering CANOPY:        4  2008201   150000
+          Exited CANOPY:        4  2008201   150000
+        Entering CANOPY:        5  2008201   150000
+          Exited CANOPY:        5  2008201   150000
+        Entering CANOPY:        6  2008201   150000
+          Exited CANOPY:        6  2008201   150000
+        Entering CANOPY:        7  2008201   150000
+          Exited CANOPY:        7  2008201   150000
+        Entering CANOPY:        8  2008201   150000
+          Exited CANOPY:        8  2008201   150000
+        Entering CANOPY:        9  2008201   150000
+          Exited CANOPY:        9  2008201   150000
+        Entering CANOPY:       10  2008201   150000
+          Exited CANOPY:       10  2008201   150000
+        Entering CANOPY:       11  2008201   150000
+          Exited CANOPY:       11  2008201   150000
+        Entering CANOPY:       12  2008201   150000
+          Exited CANOPY:       12  2008201   150000
+        Entering CANOPY:       13  2008201   150000
+          Exited CANOPY:       13  2008201   150000
+        Entering CANOPY:       14  2008201   150000
+          Exited CANOPY:       14  2008201   150000
+        Entering CANOPY:       15  2008201   150000
+          Exited CANOPY:       15  2008201   150000
+        Entering CANOPY:       16  2008201   150000
+          Exited CANOPY:       16  2008201   150000
+        Entering CANOPY:       17  2008201   150000
+          Exited CANOPY:       17  2008201   150000
+        Entering CANOPY:       18  2008201   150000
+          Exited CANOPY:       18  2008201   150000
+        Entering CANOPY:       19  2008201   150000
+          Exited CANOPY:       19  2008201   150000
+        Entering CANOPY:       20  2008201   150000
+          Exited CANOPY:       20  2008201   150000
+     Estimating soil NOx       16  2008201   150000
+     Using SOIL parameters in NOx adjustment
+     Finished soil NOx ad      16  2008201   150000
+     Writing emission at       16  2008201   150000
+     ISOP written to MGNERS for   2008201:150000
+     MYRC written to MGNERS for   2008201:150000
+     SABI written to MGNERS for   2008201:150000
+     LIMO written to MGNERS for   2008201:150000
+     A_3CAR written to MGNERS for   2008201:150000
+     OCIM written to MGNERS for   2008201:150000
+     BPIN written to MGNERS for   2008201:150000
+     APIN written to MGNERS for   2008201:150000
+     OMTP written to MGNERS for   2008201:150000
+     FARN written to MGNERS for   2008201:150000
+     BCAR written to MGNERS for   2008201:150000
+     OSQT written to MGNERS for   2008201:150000
+     MBO written to MGNERS for   2008201:150000
+     MEOH written to MGNERS for   2008201:150000
+     ACTO written to MGNERS for   2008201:150000
+     CO written to MGNERS for   2008201:150000
+     NO written to MGNERS for   2008201:150000
+     BIDER written to MGNERS for   2008201:150000
+     STRESS written to MGNERS for   2008201:150000
+     OTHER written to MGNERS for   2008201:150000
+     D_TEMP written to MGNERS for   2008201:150000
+     D_PPFD written to MGNERS for   2008201:150000
+     LAT written to MGNERS for   2008201:150000
+     LONG written to MGNERS for   2008201:150000
+     CFNO written to MGNERS for   2008201:150000
+     CFNOG written to MGNERS for   2008201:150000
+     SLTYP written to MGNERS for   2008201:150000
+             Processing:       17  2008201   160000
+      Found LAI current period for YYYYJJJ :  2008201        1    10000
+     Found LAI previous period for YYYYJJJ :  2008201        1        0
+        Entering CANOPY:        1  2008201   160000
+          Exited CANOPY:        1  2008201   160000
+        Entering CANOPY:        2  2008201   160000
+          Exited CANOPY:        2  2008201   160000
+        Entering CANOPY:        3  2008201   160000
+          Exited CANOPY:        3  2008201   160000
+        Entering CANOPY:        4  2008201   160000
+          Exited CANOPY:        4  2008201   160000
+        Entering CANOPY:        5  2008201   160000
+          Exited CANOPY:        5  2008201   160000
+        Entering CANOPY:        6  2008201   160000
+          Exited CANOPY:        6  2008201   160000
+        Entering CANOPY:        7  2008201   160000
+          Exited CANOPY:        7  2008201   160000
+        Entering CANOPY:        8  2008201   160000
+          Exited CANOPY:        8  2008201   160000
+        Entering CANOPY:        9  2008201   160000
+          Exited CANOPY:        9  2008201   160000
+        Entering CANOPY:       10  2008201   160000
+          Exited CANOPY:       10  2008201   160000
+        Entering CANOPY:       11  2008201   160000
+          Exited CANOPY:       11  2008201   160000
+        Entering CANOPY:       12  2008201   160000
+          Exited CANOPY:       12  2008201   160000
+        Entering CANOPY:       13  2008201   160000
+          Exited CANOPY:       13  2008201   160000
+        Entering CANOPY:       14  2008201   160000
+          Exited CANOPY:       14  2008201   160000
+        Entering CANOPY:       15  2008201   160000
+          Exited CANOPY:       15  2008201   160000
+        Entering CANOPY:       16  2008201   160000
+          Exited CANOPY:       16  2008201   160000
+        Entering CANOPY:       17  2008201   160000
+          Exited CANOPY:       17  2008201   160000
+        Entering CANOPY:       18  2008201   160000
+          Exited CANOPY:       18  2008201   160000
+        Entering CANOPY:       19  2008201   160000
+          Exited CANOPY:       19  2008201   160000
+        Entering CANOPY:       20  2008201   160000
+          Exited CANOPY:       20  2008201   160000
+     Estimating soil NOx       17  2008201   160000
+     Using SOIL parameters in NOx adjustment
+     Finished soil NOx ad      17  2008201   160000
+     Writing emission at       17  2008201   160000
+     ISOP written to MGNERS for   2008201:160000
+     MYRC written to MGNERS for   2008201:160000
+     SABI written to MGNERS for   2008201:160000
+     LIMO written to MGNERS for   2008201:160000
+     A_3CAR written to MGNERS for   2008201:160000
+     OCIM written to MGNERS for   2008201:160000
+     BPIN written to MGNERS for   2008201:160000
+     APIN written to MGNERS for   2008201:160000
+     OMTP written to MGNERS for   2008201:160000
+     FARN written to MGNERS for   2008201:160000
+     BCAR written to MGNERS for   2008201:160000
+     OSQT written to MGNERS for   2008201:160000
+     MBO written to MGNERS for   2008201:160000
+     MEOH written to MGNERS for   2008201:160000
+     ACTO written to MGNERS for   2008201:160000
+     CO written to MGNERS for   2008201:160000
+     NO written to MGNERS for   2008201:160000
+     BIDER written to MGNERS for   2008201:160000
+     STRESS written to MGNERS for   2008201:160000
+     OTHER written to MGNERS for   2008201:160000
+     D_TEMP written to MGNERS for   2008201:160000
+     D_PPFD written to MGNERS for   2008201:160000
+     LAT written to MGNERS for   2008201:160000
+     LONG written to MGNERS for   2008201:160000
+     CFNO written to MGNERS for   2008201:160000
+     CFNOG written to MGNERS for   2008201:160000
+     SLTYP written to MGNERS for   2008201:160000
+             Processing:       18  2008201   170000
+      Found LAI current period for YYYYJJJ :  2008201        1    10000
+     Found LAI previous period for YYYYJJJ :  2008201        1        0
+        Entering CANOPY:        1  2008201   170000
+          Exited CANOPY:        1  2008201   170000
+        Entering CANOPY:        2  2008201   170000
+          Exited CANOPY:        2  2008201   170000
+        Entering CANOPY:        3  2008201   170000
+          Exited CANOPY:        3  2008201   170000
+        Entering CANOPY:        4  2008201   170000
+          Exited CANOPY:        4  2008201   170000
+        Entering CANOPY:        5  2008201   170000
+          Exited CANOPY:        5  2008201   170000
+        Entering CANOPY:        6  2008201   170000
+          Exited CANOPY:        6  2008201   170000
+        Entering CANOPY:        7  2008201   170000
+          Exited CANOPY:        7  2008201   170000
+        Entering CANOPY:        8  2008201   170000
+          Exited CANOPY:        8  2008201   170000
+        Entering CANOPY:        9  2008201   170000
+          Exited CANOPY:        9  2008201   170000
+        Entering CANOPY:       10  2008201   170000
+          Exited CANOPY:       10  2008201   170000
+        Entering CANOPY:       11  2008201   170000
+          Exited CANOPY:       11  2008201   170000
+        Entering CANOPY:       12  2008201   170000
+          Exited CANOPY:       12  2008201   170000
+        Entering CANOPY:       13  2008201   170000
+          Exited CANOPY:       13  2008201   170000
+        Entering CANOPY:       14  2008201   170000
+          Exited CANOPY:       14  2008201   170000
+        Entering CANOPY:       15  2008201   170000
+          Exited CANOPY:       15  2008201   170000
+        Entering CANOPY:       16  2008201   170000
+          Exited CANOPY:       16  2008201   170000
+        Entering CANOPY:       17  2008201   170000
+          Exited CANOPY:       17  2008201   170000
+        Entering CANOPY:       18  2008201   170000
+          Exited CANOPY:       18  2008201   170000
+        Entering CANOPY:       19  2008201   170000
+          Exited CANOPY:       19  2008201   170000
+        Entering CANOPY:       20  2008201   170000
+          Exited CANOPY:       20  2008201   170000
+     Estimating soil NOx       18  2008201   170000
+     Using SOIL parameters in NOx adjustment
+     Finished soil NOx ad      18  2008201   170000
+     Writing emission at       18  2008201   170000
+     ISOP written to MGNERS for   2008201:170000
+     MYRC written to MGNERS for   2008201:170000
+     SABI written to MGNERS for   2008201:170000
+     LIMO written to MGNERS for   2008201:170000
+     A_3CAR written to MGNERS for   2008201:170000
+     OCIM written to MGNERS for   2008201:170000
+     BPIN written to MGNERS for   2008201:170000
+     APIN written to MGNERS for   2008201:170000
+     OMTP written to MGNERS for   2008201:170000
+     FARN written to MGNERS for   2008201:170000
+     BCAR written to MGNERS for   2008201:170000
+     OSQT written to MGNERS for   2008201:170000
+     MBO written to MGNERS for   2008201:170000
+     MEOH written to MGNERS for   2008201:170000
+     ACTO written to MGNERS for   2008201:170000
+     CO written to MGNERS for   2008201:170000
+     NO written to MGNERS for   2008201:170000
+     BIDER written to MGNERS for   2008201:170000
+     STRESS written to MGNERS for   2008201:170000
+     OTHER written to MGNERS for   2008201:170000
+     D_TEMP written to MGNERS for   2008201:170000
+     D_PPFD written to MGNERS for   2008201:170000
+     LAT written to MGNERS for   2008201:170000
+     LONG written to MGNERS for   2008201:170000
+     CFNO written to MGNERS for   2008201:170000
+     CFNOG written to MGNERS for   2008201:170000
+     SLTYP written to MGNERS for   2008201:170000
+             Processing:       19  2008201   180000
+      Found LAI current period for YYYYJJJ :  2008201        1    10000
+     Found LAI previous period for YYYYJJJ :  2008201        1        0
+        Entering CANOPY:        1  2008201   180000
+          Exited CANOPY:        1  2008201   180000
+        Entering CANOPY:        2  2008201   180000
+          Exited CANOPY:        2  2008201   180000
+        Entering CANOPY:        3  2008201   180000
+          Exited CANOPY:        3  2008201   180000
+        Entering CANOPY:        4  2008201   180000
+          Exited CANOPY:        4  2008201   180000
+        Entering CANOPY:        5  2008201   180000
+          Exited CANOPY:        5  2008201   180000
+        Entering CANOPY:        6  2008201   180000
+          Exited CANOPY:        6  2008201   180000
+        Entering CANOPY:        7  2008201   180000
+          Exited CANOPY:        7  2008201   180000
+        Entering CANOPY:        8  2008201   180000
+          Exited CANOPY:        8  2008201   180000
+        Entering CANOPY:        9  2008201   180000
+          Exited CANOPY:        9  2008201   180000
+        Entering CANOPY:       10  2008201   180000
+          Exited CANOPY:       10  2008201   180000
+        Entering CANOPY:       11  2008201   180000
+          Exited CANOPY:       11  2008201   180000
+        Entering CANOPY:       12  2008201   180000
+          Exited CANOPY:       12  2008201   180000
+        Entering CANOPY:       13  2008201   180000
+          Exited CANOPY:       13  2008201   180000
+        Entering CANOPY:       14  2008201   180000
+          Exited CANOPY:       14  2008201   180000
+        Entering CANOPY:       15  2008201   180000
+          Exited CANOPY:       15  2008201   180000
+        Entering CANOPY:       16  2008201   180000
+          Exited CANOPY:       16  2008201   180000
+        Entering CANOPY:       17  2008201   180000
+          Exited CANOPY:       17  2008201   180000
+        Entering CANOPY:       18  2008201   180000
+          Exited CANOPY:       18  2008201   180000
+        Entering CANOPY:       19  2008201   180000
+          Exited CANOPY:       19  2008201   180000
+        Entering CANOPY:       20  2008201   180000
+          Exited CANOPY:       20  2008201   180000
+     Estimating soil NOx       19  2008201   180000
+     Using SOIL parameters in NOx adjustment
+     Finished soil NOx ad      19  2008201   180000
+     Writing emission at       19  2008201   180000
+     ISOP written to MGNERS for   2008201:180000
+     MYRC written to MGNERS for   2008201:180000
+     SABI written to MGNERS for   2008201:180000
+     LIMO written to MGNERS for   2008201:180000
+     A_3CAR written to MGNERS for   2008201:180000
+     OCIM written to MGNERS for   2008201:180000
+     BPIN written to MGNERS for   2008201:180000
+     APIN written to MGNERS for   2008201:180000
+     OMTP written to MGNERS for   2008201:180000
+     FARN written to MGNERS for   2008201:180000
+     BCAR written to MGNERS for   2008201:180000
+     OSQT written to MGNERS for   2008201:180000
+     MBO written to MGNERS for   2008201:180000
+     MEOH written to MGNERS for   2008201:180000
+     ACTO written to MGNERS for   2008201:180000
+     CO written to MGNERS for   2008201:180000
+     NO written to MGNERS for   2008201:180000
+     BIDER written to MGNERS for   2008201:180000
+     STRESS written to MGNERS for   2008201:180000
+     OTHER written to MGNERS for   2008201:180000
+     D_TEMP written to MGNERS for   2008201:180000
+     D_PPFD written to MGNERS for   2008201:180000
+     LAT written to MGNERS for   2008201:180000
+     LONG written to MGNERS for   2008201:180000
+     CFNO written to MGNERS for   2008201:180000
+     CFNOG written to MGNERS for   2008201:180000
+     SLTYP written to MGNERS for   2008201:180000
+             Processing:       20  2008201   190000
+      Found LAI current period for YYYYJJJ :  2008201        1    10000
+     Found LAI previous period for YYYYJJJ :  2008201        1        0
+        Entering CANOPY:        1  2008201   190000
+          Exited CANOPY:        1  2008201   190000
+        Entering CANOPY:        2  2008201   190000
+          Exited CANOPY:        2  2008201   190000
+        Entering CANOPY:        3  2008201   190000
+          Exited CANOPY:        3  2008201   190000
+        Entering CANOPY:        4  2008201   190000
+          Exited CANOPY:        4  2008201   190000
+        Entering CANOPY:        5  2008201   190000
+          Exited CANOPY:        5  2008201   190000
+        Entering CANOPY:        6  2008201   190000
+          Exited CANOPY:        6  2008201   190000
+        Entering CANOPY:        7  2008201   190000
+          Exited CANOPY:        7  2008201   190000
+        Entering CANOPY:        8  2008201   190000
+          Exited CANOPY:        8  2008201   190000
+        Entering CANOPY:        9  2008201   190000
+          Exited CANOPY:        9  2008201   190000
+        Entering CANOPY:       10  2008201   190000
+          Exited CANOPY:       10  2008201   190000
+        Entering CANOPY:       11  2008201   190000
+          Exited CANOPY:       11  2008201   190000
+        Entering CANOPY:       12  2008201   190000
+          Exited CANOPY:       12  2008201   190000
+        Entering CANOPY:       13  2008201   190000
+          Exited CANOPY:       13  2008201   190000
+        Entering CANOPY:       14  2008201   190000
+          Exited CANOPY:       14  2008201   190000
+        Entering CANOPY:       15  2008201   190000
+          Exited CANOPY:       15  2008201   190000
+        Entering CANOPY:       16  2008201   190000
+          Exited CANOPY:       16  2008201   190000
+        Entering CANOPY:       17  2008201   190000
+          Exited CANOPY:       17  2008201   190000
+        Entering CANOPY:       18  2008201   190000
+          Exited CANOPY:       18  2008201   190000
+        Entering CANOPY:       19  2008201   190000
+          Exited CANOPY:       19  2008201   190000
+        Entering CANOPY:       20  2008201   190000
+          Exited CANOPY:       20  2008201   190000
+     Estimating soil NOx       20  2008201   190000
+     Using SOIL parameters in NOx adjustment
+     Finished soil NOx ad      20  2008201   190000
+     Writing emission at       20  2008201   190000
+     ISOP written to MGNERS for   2008201:190000
+     MYRC written to MGNERS for   2008201:190000
+     SABI written to MGNERS for   2008201:190000
+     LIMO written to MGNERS for   2008201:190000
+     A_3CAR written to MGNERS for   2008201:190000
+     OCIM written to MGNERS for   2008201:190000
+     BPIN written to MGNERS for   2008201:190000
+     APIN written to MGNERS for   2008201:190000
+     OMTP written to MGNERS for   2008201:190000
+     FARN written to MGNERS for   2008201:190000
+     BCAR written to MGNERS for   2008201:190000
+     OSQT written to MGNERS for   2008201:190000
+     MBO written to MGNERS for   2008201:190000
+     MEOH written to MGNERS for   2008201:190000
+     ACTO written to MGNERS for   2008201:190000
+     CO written to MGNERS for   2008201:190000
+     NO written to MGNERS for   2008201:190000
+     BIDER written to MGNERS for   2008201:190000
+     STRESS written to MGNERS for   2008201:190000
+     OTHER written to MGNERS for   2008201:190000
+     D_TEMP written to MGNERS for   2008201:190000
+     D_PPFD written to MGNERS for   2008201:190000
+     LAT written to MGNERS for   2008201:190000
+     LONG written to MGNERS for   2008201:190000
+     CFNO written to MGNERS for   2008201:190000
+     CFNOG written to MGNERS for   2008201:190000
+     SLTYP written to MGNERS for   2008201:190000
+             Processing:       21  2008201   200000
+      Found LAI current period for YYYYJJJ :  2008201        1    10000
+     Found LAI previous period for YYYYJJJ :  2008201        1        0
+        Entering CANOPY:        1  2008201   200000
+          Exited CANOPY:        1  2008201   200000
+        Entering CANOPY:        2  2008201   200000
+          Exited CANOPY:        2  2008201   200000
+        Entering CANOPY:        3  2008201   200000
+          Exited CANOPY:        3  2008201   200000
+        Entering CANOPY:        4  2008201   200000
+          Exited CANOPY:        4  2008201   200000
+        Entering CANOPY:        5  2008201   200000
+          Exited CANOPY:        5  2008201   200000
+        Entering CANOPY:        6  2008201   200000
+          Exited CANOPY:        6  2008201   200000
+        Entering CANOPY:        7  2008201   200000
+          Exited CANOPY:        7  2008201   200000
+        Entering CANOPY:        8  2008201   200000
+          Exited CANOPY:        8  2008201   200000
+        Entering CANOPY:        9  2008201   200000
+          Exited CANOPY:        9  2008201   200000
+        Entering CANOPY:       10  2008201   200000
+          Exited CANOPY:       10  2008201   200000
+        Entering CANOPY:       11  2008201   200000
+          Exited CANOPY:       11  2008201   200000
+        Entering CANOPY:       12  2008201   200000
+          Exited CANOPY:       12  2008201   200000
+        Entering CANOPY:       13  2008201   200000
+          Exited CANOPY:       13  2008201   200000
+        Entering CANOPY:       14  2008201   200000
+          Exited CANOPY:       14  2008201   200000
+        Entering CANOPY:       15  2008201   200000
+          Exited CANOPY:       15  2008201   200000
+        Entering CANOPY:       16  2008201   200000
+          Exited CANOPY:       16  2008201   200000
+        Entering CANOPY:       17  2008201   200000
+          Exited CANOPY:       17  2008201   200000
+        Entering CANOPY:       18  2008201   200000
+          Exited CANOPY:       18  2008201   200000
+        Entering CANOPY:       19  2008201   200000
+          Exited CANOPY:       19  2008201   200000
+        Entering CANOPY:       20  2008201   200000
+          Exited CANOPY:       20  2008201   200000
+     Estimating soil NOx       21  2008201   200000
+     Using SOIL parameters in NOx adjustment
+     Finished soil NOx ad      21  2008201   200000
+     Writing emission at       21  2008201   200000
+     ISOP written to MGNERS for   2008201:200000
+     MYRC written to MGNERS for   2008201:200000
+     SABI written to MGNERS for   2008201:200000
+     LIMO written to MGNERS for   2008201:200000
+     A_3CAR written to MGNERS for   2008201:200000
+     OCIM written to MGNERS for   2008201:200000
+     BPIN written to MGNERS for   2008201:200000
+     APIN written to MGNERS for   2008201:200000
+     OMTP written to MGNERS for   2008201:200000
+     FARN written to MGNERS for   2008201:200000
+     BCAR written to MGNERS for   2008201:200000
+     OSQT written to MGNERS for   2008201:200000
+     MBO written to MGNERS for   2008201:200000
+     MEOH written to MGNERS for   2008201:200000
+     ACTO written to MGNERS for   2008201:200000
+     CO written to MGNERS for   2008201:200000
+     NO written to MGNERS for   2008201:200000
+     BIDER written to MGNERS for   2008201:200000
+     STRESS written to MGNERS for   2008201:200000
+     OTHER written to MGNERS for   2008201:200000
+     D_TEMP written to MGNERS for   2008201:200000
+     D_PPFD written to MGNERS for   2008201:200000
+     LAT written to MGNERS for   2008201:200000
+     LONG written to MGNERS for   2008201:200000
+     CFNO written to MGNERS for   2008201:200000
+     CFNOG written to MGNERS for   2008201:200000
+     SLTYP written to MGNERS for   2008201:200000
+             Processing:       22  2008201   210000
+      Found LAI current period for YYYYJJJ :  2008201        1    10000
+     Found LAI previous period for YYYYJJJ :  2008201        1        0
+        Entering CANOPY:        1  2008201   210000
+          Exited CANOPY:        1  2008201   210000
+        Entering CANOPY:        2  2008201   210000
+          Exited CANOPY:        2  2008201   210000
+        Entering CANOPY:        3  2008201   210000
+          Exited CANOPY:        3  2008201   210000
+        Entering CANOPY:        4  2008201   210000
+          Exited CANOPY:        4  2008201   210000
+        Entering CANOPY:        5  2008201   210000
+          Exited CANOPY:        5  2008201   210000
+        Entering CANOPY:        6  2008201   210000
+          Exited CANOPY:        6  2008201   210000
+        Entering CANOPY:        7  2008201   210000
+          Exited CANOPY:        7  2008201   210000
+        Entering CANOPY:        8  2008201   210000
+          Exited CANOPY:        8  2008201   210000
+        Entering CANOPY:        9  2008201   210000
+          Exited CANOPY:        9  2008201   210000
+        Entering CANOPY:       10  2008201   210000
+          Exited CANOPY:       10  2008201   210000
+        Entering CANOPY:       11  2008201   210000
+          Exited CANOPY:       11  2008201   210000
+        Entering CANOPY:       12  2008201   210000
+          Exited CANOPY:       12  2008201   210000
+        Entering CANOPY:       13  2008201   210000
+          Exited CANOPY:       13  2008201   210000
+        Entering CANOPY:       14  2008201   210000
+          Exited CANOPY:       14  2008201   210000
+        Entering CANOPY:       15  2008201   210000
+          Exited CANOPY:       15  2008201   210000
+        Entering CANOPY:       16  2008201   210000
+          Exited CANOPY:       16  2008201   210000
+        Entering CANOPY:       17  2008201   210000
+          Exited CANOPY:       17  2008201   210000
+        Entering CANOPY:       18  2008201   210000
+          Exited CANOPY:       18  2008201   210000
+        Entering CANOPY:       19  2008201   210000
+          Exited CANOPY:       19  2008201   210000
+        Entering CANOPY:       20  2008201   210000
+          Exited CANOPY:       20  2008201   210000
+     Estimating soil NOx       22  2008201   210000
+     Using SOIL parameters in NOx adjustment
+     Finished soil NOx ad      22  2008201   210000
+     Writing emission at       22  2008201   210000
+     ISOP written to MGNERS for   2008201:210000
+     MYRC written to MGNERS for   2008201:210000
+     SABI written to MGNERS for   2008201:210000
+     LIMO written to MGNERS for   2008201:210000
+     A_3CAR written to MGNERS for   2008201:210000
+     OCIM written to MGNERS for   2008201:210000
+     BPIN written to MGNERS for   2008201:210000
+     APIN written to MGNERS for   2008201:210000
+     OMTP written to MGNERS for   2008201:210000
+     FARN written to MGNERS for   2008201:210000
+     BCAR written to MGNERS for   2008201:210000
+     OSQT written to MGNERS for   2008201:210000
+     MBO written to MGNERS for   2008201:210000
+     MEOH written to MGNERS for   2008201:210000
+     ACTO written to MGNERS for   2008201:210000
+     CO written to MGNERS for   2008201:210000
+     NO written to MGNERS for   2008201:210000
+     BIDER written to MGNERS for   2008201:210000
+     STRESS written to MGNERS for   2008201:210000
+     OTHER written to MGNERS for   2008201:210000
+     D_TEMP written to MGNERS for   2008201:210000
+     D_PPFD written to MGNERS for   2008201:210000
+     LAT written to MGNERS for   2008201:210000
+     LONG written to MGNERS for   2008201:210000
+     CFNO written to MGNERS for   2008201:210000
+     CFNOG written to MGNERS for   2008201:210000
+     SLTYP written to MGNERS for   2008201:210000
+             Processing:       23  2008201   220000
+      Found LAI current period for YYYYJJJ :  2008201        1    10000
+     Found LAI previous period for YYYYJJJ :  2008201        1        0
+        Entering CANOPY:        1  2008201   220000
+          Exited CANOPY:        1  2008201   220000
+        Entering CANOPY:        2  2008201   220000
+          Exited CANOPY:        2  2008201   220000
+        Entering CANOPY:        3  2008201   220000
+          Exited CANOPY:        3  2008201   220000
+        Entering CANOPY:        4  2008201   220000
+          Exited CANOPY:        4  2008201   220000
+        Entering CANOPY:        5  2008201   220000
+          Exited CANOPY:        5  2008201   220000
+        Entering CANOPY:        6  2008201   220000
+          Exited CANOPY:        6  2008201   220000
+        Entering CANOPY:        7  2008201   220000
+          Exited CANOPY:        7  2008201   220000
+        Entering CANOPY:        8  2008201   220000
+          Exited CANOPY:        8  2008201   220000
+        Entering CANOPY:        9  2008201   220000
+          Exited CANOPY:        9  2008201   220000
+        Entering CANOPY:       10  2008201   220000
+          Exited CANOPY:       10  2008201   220000
+        Entering CANOPY:       11  2008201   220000
+          Exited CANOPY:       11  2008201   220000
+        Entering CANOPY:       12  2008201   220000
+          Exited CANOPY:       12  2008201   220000
+        Entering CANOPY:       13  2008201   220000
+          Exited CANOPY:       13  2008201   220000
+        Entering CANOPY:       14  2008201   220000
+          Exited CANOPY:       14  2008201   220000
+        Entering CANOPY:       15  2008201   220000
+          Exited CANOPY:       15  2008201   220000
+        Entering CANOPY:       16  2008201   220000
+          Exited CANOPY:       16  2008201   220000
+        Entering CANOPY:       17  2008201   220000
+          Exited CANOPY:       17  2008201   220000
+        Entering CANOPY:       18  2008201   220000
+          Exited CANOPY:       18  2008201   220000
+        Entering CANOPY:       19  2008201   220000
+          Exited CANOPY:       19  2008201   220000
+        Entering CANOPY:       20  2008201   220000
+          Exited CANOPY:       20  2008201   220000
+     Estimating soil NOx       23  2008201   220000
+     Using SOIL parameters in NOx adjustment
+     Finished soil NOx ad      23  2008201   220000
+     Writing emission at       23  2008201   220000
+     ISOP written to MGNERS for   2008201:220000
+     MYRC written to MGNERS for   2008201:220000
+     SABI written to MGNERS for   2008201:220000
+     LIMO written to MGNERS for   2008201:220000
+     A_3CAR written to MGNERS for   2008201:220000
+     OCIM written to MGNERS for   2008201:220000
+     BPIN written to MGNERS for   2008201:220000
+     APIN written to MGNERS for   2008201:220000
+     OMTP written to MGNERS for   2008201:220000
+     FARN written to MGNERS for   2008201:220000
+     BCAR written to MGNERS for   2008201:220000
+     OSQT written to MGNERS for   2008201:220000
+     MBO written to MGNERS for   2008201:220000
+     MEOH written to MGNERS for   2008201:220000
+     ACTO written to MGNERS for   2008201:220000
+     CO written to MGNERS for   2008201:220000
+     NO written to MGNERS for   2008201:220000
+     BIDER written to MGNERS for   2008201:220000
+     STRESS written to MGNERS for   2008201:220000
+     OTHER written to MGNERS for   2008201:220000
+     D_TEMP written to MGNERS for   2008201:220000
+     D_PPFD written to MGNERS for   2008201:220000
+     LAT written to MGNERS for   2008201:220000
+     LONG written to MGNERS for   2008201:220000
+     CFNO written to MGNERS for   2008201:220000
+     CFNOG written to MGNERS for   2008201:220000
+     SLTYP written to MGNERS for   2008201:220000
+             Processing:       24  2008201   230000
+      Found LAI current period for YYYYJJJ :  2008201        1    10000
+     Found LAI previous period for YYYYJJJ :  2008201        1        0
+        Entering CANOPY:        1  2008201   230000
+          Exited CANOPY:        1  2008201   230000
+        Entering CANOPY:        2  2008201   230000
+          Exited CANOPY:        2  2008201   230000
+        Entering CANOPY:        3  2008201   230000
+          Exited CANOPY:        3  2008201   230000
+        Entering CANOPY:        4  2008201   230000
+          Exited CANOPY:        4  2008201   230000
+        Entering CANOPY:        5  2008201   230000
+          Exited CANOPY:        5  2008201   230000
+        Entering CANOPY:        6  2008201   230000
+          Exited CANOPY:        6  2008201   230000
+        Entering CANOPY:        7  2008201   230000
+          Exited CANOPY:        7  2008201   230000
+        Entering CANOPY:        8  2008201   230000
+          Exited CANOPY:        8  2008201   230000
+        Entering CANOPY:        9  2008201   230000
+          Exited CANOPY:        9  2008201   230000
+        Entering CANOPY:       10  2008201   230000
+          Exited CANOPY:       10  2008201   230000
+        Entering CANOPY:       11  2008201   230000
+          Exited CANOPY:       11  2008201   230000
+        Entering CANOPY:       12  2008201   230000
+          Exited CANOPY:       12  2008201   230000
+        Entering CANOPY:       13  2008201   230000
+          Exited CANOPY:       13  2008201   230000
+        Entering CANOPY:       14  2008201   230000
+          Exited CANOPY:       14  2008201   230000
+        Entering CANOPY:       15  2008201   230000
+          Exited CANOPY:       15  2008201   230000
+        Entering CANOPY:       16  2008201   230000
+          Exited CANOPY:       16  2008201   230000
+        Entering CANOPY:       17  2008201   230000
+          Exited CANOPY:       17  2008201   230000
+        Entering CANOPY:       18  2008201   230000
+          Exited CANOPY:       18  2008201   230000
+        Entering CANOPY:       19  2008201   230000
+          Exited CANOPY:       19  2008201   230000
+        Entering CANOPY:       20  2008201   230000
+          Exited CANOPY:       20  2008201   230000
+     Estimating soil NOx       24  2008201   230000
+     Using SOIL parameters in NOx adjustment
+     Finished soil NOx ad      24  2008201   230000
+     Writing emission at       24  2008201   230000
+     ISOP written to MGNERS for   2008201:230000
+     MYRC written to MGNERS for   2008201:230000
+     SABI written to MGNERS for   2008201:230000
+     LIMO written to MGNERS for   2008201:230000
+     A_3CAR written to MGNERS for   2008201:230000
+     OCIM written to MGNERS for   2008201:230000
+     BPIN written to MGNERS for   2008201:230000
+     APIN written to MGNERS for   2008201:230000
+     OMTP written to MGNERS for   2008201:230000
+     FARN written to MGNERS for   2008201:230000
+     BCAR written to MGNERS for   2008201:230000
+     OSQT written to MGNERS for   2008201:230000
+     MBO written to MGNERS for   2008201:230000
+     MEOH written to MGNERS for   2008201:230000
+     ACTO written to MGNERS for   2008201:230000
+     CO written to MGNERS for   2008201:230000
+     NO written to MGNERS for   2008201:230000
+     BIDER written to MGNERS for   2008201:230000
+     STRESS written to MGNERS for   2008201:230000
+     OTHER written to MGNERS for   2008201:230000
+     D_TEMP written to MGNERS for   2008201:230000
+     D_PPFD written to MGNERS for   2008201:230000
+     LAT written to MGNERS for   2008201:230000
+     LONG written to MGNERS for   2008201:230000
+     CFNO written to MGNERS for   2008201:230000
+     CFNOG written to MGNERS for   2008201:230000
+     SLTYP written to MGNERS for   2008201:230000
+     
+     --->> Normal Completion of program EMPROC
+     
+     
